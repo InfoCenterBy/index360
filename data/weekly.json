@@ -1,0 +1,2852 @@
+{
+  "schemaVersion": 1,
+  "series": [
+    {
+      "year": 2021,
+      "weeks": [
+        {
+          "week": 1,
+          "startDate": "2021-01-04",
+          "endDate": "2021-01-10",
+          "receiptIndex": 0.005,
+          "salesIndex": 0.039,
+          "cashShare": 40,
+          "cashlessShare": 60
+        },
+        {
+          "week": 2,
+          "startDate": "2021-01-11",
+          "endDate": "2021-01-17",
+          "receiptIndex": 0.028,
+          "salesIndex": 0.063,
+          "cashShare": 43.9,
+          "cashlessShare": 56.1
+        },
+        {
+          "week": 3,
+          "startDate": "2021-01-18",
+          "endDate": "2021-01-24",
+          "receiptIndex": 0.042,
+          "salesIndex": 0.08,
+          "cashShare": 39.5,
+          "cashlessShare": 60.5
+        },
+        {
+          "week": 4,
+          "startDate": "2021-01-25",
+          "endDate": "2021-01-31",
+          "receiptIndex": 0.041,
+          "salesIndex": 0.085,
+          "cashShare": 35.3,
+          "cashlessShare": 64.7
+        },
+        {
+          "week": 5,
+          "startDate": "2021-02-01",
+          "endDate": "2021-02-07",
+          "receiptIndex": 0.025,
+          "salesIndex": 0.077,
+          "cashShare": 39.3,
+          "cashlessShare": 60.7
+        },
+        {
+          "week": 6,
+          "startDate": "2021-02-08",
+          "endDate": "2021-02-14",
+          "receiptIndex": -0.002,
+          "salesIndex": 0.058,
+          "cashShare": 42.2,
+          "cashlessShare": 57.8
+        },
+        {
+          "week": 7,
+          "startDate": "2021-02-15",
+          "endDate": "2021-02-21",
+          "receiptIndex": -0.035,
+          "salesIndex": 0.033,
+          "cashShare": 36.9,
+          "cashlessShare": 63.1
+        },
+        {
+          "week": 8,
+          "startDate": "2021-02-22",
+          "endDate": "2021-02-28",
+          "receiptIndex": -0.065,
+          "salesIndex": 0.007,
+          "cashShare": 33,
+          "cashlessShare": 67
+        },
+        {
+          "week": 9,
+          "startDate": "2021-03-01",
+          "endDate": "2021-03-07",
+          "receiptIndex": -0.086,
+          "salesIndex": -0.015,
+          "cashShare": 37.1,
+          "cashlessShare": 62.9
+        },
+        {
+          "week": 10,
+          "startDate": "2021-03-08",
+          "endDate": "2021-03-14",
+          "receiptIndex": -0.092,
+          "salesIndex": -0.027,
+          "cashShare": 39.4,
+          "cashlessShare": 60.6
+        },
+        {
+          "week": 11,
+          "startDate": "2021-03-15",
+          "endDate": "2021-03-21",
+          "receiptIndex": -0.084,
+          "salesIndex": -0.03,
+          "cashShare": 33.8,
+          "cashlessShare": 66.2
+        },
+        {
+          "week": 12,
+          "startDate": "2021-03-22",
+          "endDate": "2021-03-28",
+          "receiptIndex": -0.066,
+          "salesIndex": -0.025,
+          "cashShare": 30.7,
+          "cashlessShare": 69.3
+        },
+        {
+          "week": 13,
+          "startDate": "2021-03-29",
+          "endDate": "2021-04-04",
+          "receiptIndex": -0.045,
+          "salesIndex": -0.017,
+          "cashShare": 35.6,
+          "cashlessShare": 64.4
+        },
+        {
+          "week": 14,
+          "startDate": "2021-04-05",
+          "endDate": "2021-04-11",
+          "receiptIndex": -0.027,
+          "salesIndex": -0.008,
+          "cashShare": 37.7,
+          "cashlessShare": 62.3
+        },
+        {
+          "week": 15,
+          "startDate": "2021-04-12",
+          "endDate": "2021-04-18",
+          "receiptIndex": -0.019,
+          "salesIndex": -0.003,
+          "cashShare": 32.4,
+          "cashlessShare": 67.6
+        },
+        {
+          "week": 16,
+          "startDate": "2021-04-19",
+          "endDate": "2021-04-25",
+          "receiptIndex": -0.023,
+          "salesIndex": -0.004,
+          "cashShare": 30.5,
+          "cashlessShare": 69.5
+        },
+        {
+          "week": 17,
+          "startDate": "2021-04-26",
+          "endDate": "2021-05-02",
+          "receiptIndex": -0.037,
+          "salesIndex": -0.01,
+          "cashShare": 36.2,
+          "cashlessShare": 63.8
+        },
+        {
+          "week": 18,
+          "startDate": "2021-05-03",
+          "endDate": "2021-05-09",
+          "receiptIndex": -0.055,
+          "salesIndex": -0.016,
+          "cashShare": 38.4,
+          "cashlessShare": 61.6
+        },
+        {
+          "week": 19,
+          "startDate": "2021-05-10",
+          "endDate": "2021-05-16",
+          "receiptIndex": -0.071,
+          "salesIndex": -0.019,
+          "cashShare": 33.4,
+          "cashlessShare": 66.6
+        },
+        {
+          "week": 20,
+          "startDate": "2021-05-17",
+          "endDate": "2021-05-23",
+          "receiptIndex": -0.077,
+          "salesIndex": -0.015,
+          "cashShare": 32.6,
+          "cashlessShare": 67.4
+        },
+        {
+          "week": 21,
+          "startDate": "2021-05-24",
+          "endDate": "2021-05-30",
+          "receiptIndex": -0.071,
+          "salesIndex": -0.002,
+          "cashShare": 38.9,
+          "cashlessShare": 61.1
+        },
+        {
+          "week": 22,
+          "startDate": "2021-05-31",
+          "endDate": "2021-06-06",
+          "receiptIndex": -0.051,
+          "salesIndex": 0.018,
+          "cashShare": 40.6,
+          "cashlessShare": 59.4
+        },
+        {
+          "week": 23,
+          "startDate": "2021-06-07",
+          "endDate": "2021-06-13",
+          "receiptIndex": -0.022,
+          "salesIndex": 0.043,
+          "cashShare": 35.6,
+          "cashlessShare": 64.4
+        },
+        {
+          "week": 24,
+          "startDate": "2021-06-14",
+          "endDate": "2021-06-20",
+          "receiptIndex": 0.009,
+          "salesIndex": 0.066,
+          "cashShare": 35.5,
+          "cashlessShare": 64.5
+        },
+        {
+          "week": 25,
+          "startDate": "2021-06-21",
+          "endDate": "2021-06-27",
+          "receiptIndex": 0.035,
+          "salesIndex": 0.083,
+          "cashShare": 41.7,
+          "cashlessShare": 58.3
+        },
+        {
+          "week": 26,
+          "startDate": "2021-06-28",
+          "endDate": "2021-07-04",
+          "receiptIndex": 0.048,
+          "salesIndex": 0.089,
+          "cashShare": 42.6,
+          "cashlessShare": 57.4
+        },
+        {
+          "week": 27,
+          "startDate": "2021-07-05",
+          "endDate": "2021-07-11",
+          "receiptIndex": 0.046,
+          "salesIndex": 0.081,
+          "cashShare": 37.1,
+          "cashlessShare": 62.9
+        },
+        {
+          "week": 28,
+          "startDate": "2021-07-12",
+          "endDate": "2021-07-18",
+          "receiptIndex": 0.029,
+          "salesIndex": 0.061,
+          "cashShare": 37.2,
+          "cashlessShare": 62.8
+        },
+        {
+          "week": 29,
+          "startDate": "2021-07-19",
+          "endDate": "2021-07-25",
+          "receiptIndex": 0.003,
+          "salesIndex": 0.035,
+          "cashShare": 42.9,
+          "cashlessShare": 57.1
+        },
+        {
+          "week": 30,
+          "startDate": "2021-07-26",
+          "endDate": "2021-08-01",
+          "receiptIndex": -0.026,
+          "salesIndex": 0.006,
+          "cashShare": 42.4,
+          "cashlessShare": 57.6
+        },
+        {
+          "week": 31,
+          "startDate": "2021-08-02",
+          "endDate": "2021-08-08",
+          "receiptIndex": -0.049,
+          "salesIndex": -0.017,
+          "cashShare": 36.4,
+          "cashlessShare": 63.6
+        },
+        {
+          "week": 32,
+          "startDate": "2021-08-09",
+          "endDate": "2021-08-15",
+          "receiptIndex": -0.061,
+          "salesIndex": -0.03,
+          "cashShare": 36.5,
+          "cashlessShare": 63.5
+        },
+        {
+          "week": 33,
+          "startDate": "2021-08-16",
+          "endDate": "2021-08-22",
+          "receiptIndex": -0.06,
+          "salesIndex": -0.032,
+          "cashShare": 41.6,
+          "cashlessShare": 58.4
+        },
+        {
+          "week": 34,
+          "startDate": "2021-08-23",
+          "endDate": "2021-08-29",
+          "receiptIndex": -0.049,
+          "salesIndex": -0.024,
+          "cashShare": 40.1,
+          "cashlessShare": 59.9
+        },
+        {
+          "week": 35,
+          "startDate": "2021-08-30",
+          "endDate": "2021-09-05",
+          "receiptIndex": -0.032,
+          "salesIndex": -0.009,
+          "cashShare": 33.8,
+          "cashlessShare": 66.2
+        },
+        {
+          "week": 36,
+          "startDate": "2021-09-06",
+          "endDate": "2021-09-12",
+          "receiptIndex": -0.017,
+          "salesIndex": 0.008,
+          "cashShare": 34.3,
+          "cashlessShare": 65.7
+        },
+        {
+          "week": 37,
+          "startDate": "2021-09-13",
+          "endDate": "2021-09-19",
+          "receiptIndex": -0.011,
+          "salesIndex": 0.019,
+          "cashShare": 39.2,
+          "cashlessShare": 60.8
+        },
+        {
+          "week": 38,
+          "startDate": "2021-09-20",
+          "endDate": "2021-09-26",
+          "receiptIndex": -0.017,
+          "salesIndex": 0.023,
+          "cashShare": 37.1,
+          "cashlessShare": 62.9
+        },
+        {
+          "week": 39,
+          "startDate": "2021-09-27",
+          "endDate": "2021-10-03",
+          "receiptIndex": -0.034,
+          "salesIndex": 0.02,
+          "cashShare": 31.1,
+          "cashlessShare": 68.9
+        },
+        {
+          "week": 40,
+          "startDate": "2021-10-04",
+          "endDate": "2021-10-10",
+          "receiptIndex": -0.058,
+          "salesIndex": 0.01,
+          "cashShare": 32.6,
+          "cashlessShare": 67.4
+        },
+        {
+          "week": 41,
+          "startDate": "2021-10-11",
+          "endDate": "2021-10-17",
+          "receiptIndex": -0.082,
+          "salesIndex": -0.001,
+          "cashShare": 37.8,
+          "cashlessShare": 62.2
+        },
+        {
+          "week": 42,
+          "startDate": "2021-10-18",
+          "endDate": "2021-10-24",
+          "receiptIndex": -0.099,
+          "salesIndex": -0.01,
+          "cashShare": 35.5,
+          "cashlessShare": 64.5
+        },
+        {
+          "week": 43,
+          "startDate": "2021-10-25",
+          "endDate": "2021-10-31",
+          "receiptIndex": -0.103,
+          "salesIndex": -0.012,
+          "cashShare": 30.3,
+          "cashlessShare": 69.7
+        },
+        {
+          "week": 44,
+          "startDate": "2021-11-01",
+          "endDate": "2021-11-07",
+          "receiptIndex": -0.091,
+          "salesIndex": -0.007,
+          "cashShare": 33.1,
+          "cashlessShare": 66.9
+        },
+        {
+          "week": 45,
+          "startDate": "2021-11-08",
+          "endDate": "2021-11-14",
+          "receiptIndex": -0.066,
+          "salesIndex": 0.006,
+          "cashShare": 38.5,
+          "cashlessShare": 61.5
+        },
+        {
+          "week": 46,
+          "startDate": "2021-11-15",
+          "endDate": "2021-11-21",
+          "receiptIndex": -0.034,
+          "salesIndex": 0.021,
+          "cashShare": 36.2,
+          "cashlessShare": 63.8
+        },
+        {
+          "week": 47,
+          "startDate": "2021-11-22",
+          "endDate": "2021-11-28",
+          "receiptIndex": -0.002,
+          "salesIndex": 0.035,
+          "cashShare": 31.9,
+          "cashlessShare": 68.1
+        },
+        {
+          "week": 48,
+          "startDate": "2021-11-29",
+          "endDate": "2021-12-05",
+          "receiptIndex": 0.022,
+          "salesIndex": 0.044,
+          "cashShare": 35.7,
+          "cashlessShare": 64.3
+        },
+        {
+          "week": 49,
+          "startDate": "2021-12-06",
+          "endDate": "2021-12-12",
+          "receiptIndex": 0.032,
+          "salesIndex": 0.043,
+          "cashShare": 41.1,
+          "cashlessShare": 58.9
+        },
+        {
+          "week": 50,
+          "startDate": "2021-12-13",
+          "endDate": "2021-12-19",
+          "receiptIndex": 0.028,
+          "salesIndex": 0.034,
+          "cashShare": 38.4,
+          "cashlessShare": 61.6
+        },
+        {
+          "week": 51,
+          "startDate": "2021-12-20",
+          "endDate": "2021-12-26",
+          "receiptIndex": 0.012,
+          "salesIndex": 0.019,
+          "cashShare": 34.5,
+          "cashlessShare": 65.5
+        },
+        {
+          "week": 52,
+          "startDate": "2021-12-27",
+          "endDate": "2022-01-02",
+          "receiptIndex": -0.01,
+          "salesIndex": 0.003,
+          "cashShare": 38.7,
+          "cashlessShare": 61.3
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "weeks": [
+        {
+          "week": 1,
+          "startDate": "2022-01-03",
+          "endDate": "2022-01-09",
+          "receiptIndex": 0.047,
+          "salesIndex": 0.089,
+          "cashShare": 41.5,
+          "cashlessShare": 58.5
+        },
+        {
+          "week": 2,
+          "startDate": "2022-01-10",
+          "endDate": "2022-01-16",
+          "receiptIndex": 0.048,
+          "salesIndex": 0.093,
+          "cashShare": 39.6,
+          "cashlessShare": 60.4
+        },
+        {
+          "week": 3,
+          "startDate": "2022-01-17",
+          "endDate": "2022-01-23",
+          "receiptIndex": 0.034,
+          "salesIndex": 0.084,
+          "cashShare": 33.3,
+          "cashlessShare": 66.7
+        },
+        {
+          "week": 4,
+          "startDate": "2022-01-24",
+          "endDate": "2022-01-30",
+          "receiptIndex": 0.007,
+          "salesIndex": 0.062,
+          "cashShare": 34.3,
+          "cashlessShare": 65.7
+        },
+        {
+          "week": 5,
+          "startDate": "2022-01-31",
+          "endDate": "2022-02-06",
+          "receiptIndex": -0.026,
+          "salesIndex": 0.034,
+          "cashShare": 39.1,
+          "cashlessShare": 60.9
+        },
+        {
+          "week": 6,
+          "startDate": "2022-02-07",
+          "endDate": "2022-02-13",
+          "receiptIndex": -0.057,
+          "salesIndex": 0.006,
+          "cashShare": 36.5,
+          "cashlessShare": 63.5
+        },
+        {
+          "week": 7,
+          "startDate": "2022-02-14",
+          "endDate": "2022-02-20",
+          "receiptIndex": -0.079,
+          "salesIndex": -0.018,
+          "cashShare": 30.6,
+          "cashlessShare": 69.4
+        },
+        {
+          "week": 8,
+          "startDate": "2022-02-21",
+          "endDate": "2022-02-27",
+          "receiptIndex": -0.087,
+          "salesIndex": -0.032,
+          "cashShare": 32.5,
+          "cashlessShare": 67.5
+        },
+        {
+          "week": 9,
+          "startDate": "2022-02-28",
+          "endDate": "2022-03-06",
+          "receiptIndex": -0.081,
+          "salesIndex": -0.035,
+          "cashShare": 37.4,
+          "cashlessShare": 62.6
+        },
+        {
+          "week": 10,
+          "startDate": "2022-03-07",
+          "endDate": "2022-03-13",
+          "receiptIndex": -0.062,
+          "salesIndex": -0.028,
+          "cashShare": 34.7,
+          "cashlessShare": 65.3
+        },
+        {
+          "week": 11,
+          "startDate": "2022-03-14",
+          "endDate": "2022-03-20",
+          "receiptIndex": -0.039,
+          "salesIndex": -0.016,
+          "cashShare": 29.7,
+          "cashlessShare": 70.3
+        },
+        {
+          "week": 12,
+          "startDate": "2022-03-21",
+          "endDate": "2022-03-27",
+          "receiptIndex": -0.018,
+          "salesIndex": -0.003,
+          "cashShare": 32.7,
+          "cashlessShare": 67.3
+        },
+        {
+          "week": 13,
+          "startDate": "2022-03-28",
+          "endDate": "2022-04-03",
+          "receiptIndex": -0.005,
+          "salesIndex": 0.008,
+          "cashShare": 38,
+          "cashlessShare": 62
+        },
+        {
+          "week": 14,
+          "startDate": "2022-04-04",
+          "endDate": "2022-04-10",
+          "receiptIndex": -0.004,
+          "salesIndex": 0.013,
+          "cashShare": 35.3,
+          "cashlessShare": 64.7
+        },
+        {
+          "week": 15,
+          "startDate": "2022-04-11",
+          "endDate": "2022-04-17",
+          "receiptIndex": -0.014,
+          "salesIndex": 0.013,
+          "cashShare": 31.1,
+          "cashlessShare": 68.9
+        },
+        {
+          "week": 16,
+          "startDate": "2022-04-18",
+          "endDate": "2022-04-24",
+          "receiptIndex": -0.031,
+          "salesIndex": 0.009,
+          "cashShare": 35.2,
+          "cashlessShare": 64.8
+        },
+        {
+          "week": 17,
+          "startDate": "2022-04-25",
+          "endDate": "2022-05-01",
+          "receiptIndex": -0.047,
+          "salesIndex": 0.006,
+          "cashShare": 40.4,
+          "cashlessShare": 59.6
+        },
+        {
+          "week": 18,
+          "startDate": "2022-05-02",
+          "endDate": "2022-05-08",
+          "receiptIndex": -0.056,
+          "salesIndex": 0.008,
+          "cashShare": 37.4,
+          "cashlessShare": 62.6
+        },
+        {
+          "week": 19,
+          "startDate": "2022-05-09",
+          "endDate": "2022-05-15",
+          "receiptIndex": -0.052,
+          "salesIndex": 0.017,
+          "cashShare": 33.7,
+          "cashlessShare": 66.3
+        },
+        {
+          "week": 20,
+          "startDate": "2022-05-16",
+          "endDate": "2022-05-22",
+          "receiptIndex": -0.036,
+          "salesIndex": 0.033,
+          "cashShare": 38.3,
+          "cashlessShare": 61.7
+        },
+        {
+          "week": 21,
+          "startDate": "2022-05-23",
+          "endDate": "2022-05-29",
+          "receiptIndex": -0.009,
+          "salesIndex": 0.054,
+          "cashShare": 42.8,
+          "cashlessShare": 57.2
+        },
+        {
+          "week": 22,
+          "startDate": "2022-05-30",
+          "endDate": "2022-06-05",
+          "receiptIndex": 0.021,
+          "salesIndex": 0.074,
+          "cashShare": 39,
+          "cashlessShare": 61
+        },
+        {
+          "week": 23,
+          "startDate": "2022-06-06",
+          "endDate": "2022-06-12",
+          "receiptIndex": 0.046,
+          "salesIndex": 0.087,
+          "cashShare": 35.4,
+          "cashlessShare": 64.6
+        },
+        {
+          "week": 24,
+          "startDate": "2022-06-13",
+          "endDate": "2022-06-19",
+          "receiptIndex": 0.06,
+          "salesIndex": 0.091,
+          "cashShare": 39.9,
+          "cashlessShare": 60.1
+        },
+        {
+          "week": 25,
+          "startDate": "2022-06-20",
+          "endDate": "2022-06-26",
+          "receiptIndex": 0.059,
+          "salesIndex": 0.083,
+          "cashShare": 43.4,
+          "cashlessShare": 56.6
+        },
+        {
+          "week": 26,
+          "startDate": "2022-06-27",
+          "endDate": "2022-07-03",
+          "receiptIndex": 0.043,
+          "salesIndex": 0.063,
+          "cashShare": 38.5,
+          "cashlessShare": 61.5
+        },
+        {
+          "week": 27,
+          "startDate": "2022-07-04",
+          "endDate": "2022-07-10",
+          "receiptIndex": 0.016,
+          "salesIndex": 0.036,
+          "cashShare": 34.9,
+          "cashlessShare": 65.1
+        },
+        {
+          "week": 28,
+          "startDate": "2022-07-11",
+          "endDate": "2022-07-17",
+          "receiptIndex": -0.014,
+          "salesIndex": 0.008,
+          "cashShare": 39.2,
+          "cashlessShare": 60.8
+        },
+        {
+          "week": 29,
+          "startDate": "2022-07-18",
+          "endDate": "2022-07-24",
+          "receiptIndex": -0.04,
+          "salesIndex": -0.015,
+          "cashShare": 41.6,
+          "cashlessShare": 58.4
+        },
+        {
+          "week": 30,
+          "startDate": "2022-07-25",
+          "endDate": "2022-07-31",
+          "receiptIndex": -0.056,
+          "salesIndex": -0.029,
+          "cashShare": 36,
+          "cashlessShare": 64
+        },
+        {
+          "week": 31,
+          "startDate": "2022-08-01",
+          "endDate": "2022-08-07",
+          "receiptIndex": -0.059,
+          "salesIndex": -0.031,
+          "cashShare": 32.5,
+          "cashlessShare": 67.5
+        },
+        {
+          "week": 32,
+          "startDate": "2022-08-08",
+          "endDate": "2022-08-14",
+          "receiptIndex": -0.049,
+          "salesIndex": -0.021,
+          "cashShare": 37,
+          "cashlessShare": 63
+        },
+        {
+          "week": 33,
+          "startDate": "2022-08-15",
+          "endDate": "2022-08-21",
+          "receiptIndex": -0.032,
+          "salesIndex": -0.003,
+          "cashShare": 38.8,
+          "cashlessShare": 61.2
+        },
+        {
+          "week": 34,
+          "startDate": "2022-08-22",
+          "endDate": "2022-08-28",
+          "receiptIndex": -0.016,
+          "salesIndex": 0.015,
+          "cashShare": 33,
+          "cashlessShare": 67
+        },
+        {
+          "week": 35,
+          "startDate": "2022-08-29",
+          "endDate": "2022-09-04",
+          "receiptIndex": -0.006,
+          "salesIndex": 0.031,
+          "cashShare": 30.4,
+          "cashlessShare": 69.6
+        },
+        {
+          "week": 36,
+          "startDate": "2022-09-05",
+          "endDate": "2022-09-11",
+          "receiptIndex": -0.007,
+          "salesIndex": 0.038,
+          "cashShare": 35.5,
+          "cashlessShare": 64.5
+        },
+        {
+          "week": 37,
+          "startDate": "2022-09-12",
+          "endDate": "2022-09-18",
+          "receiptIndex": -0.02,
+          "salesIndex": 0.037,
+          "cashShare": 37.1,
+          "cashlessShare": 62.9
+        },
+        {
+          "week": 38,
+          "startDate": "2022-09-19",
+          "endDate": "2022-09-25",
+          "receiptIndex": -0.041,
+          "salesIndex": 0.028,
+          "cashShare": 31.6,
+          "cashlessShare": 68.4
+        },
+        {
+          "week": 39,
+          "startDate": "2022-09-26",
+          "endDate": "2022-10-02",
+          "receiptIndex": -0.063,
+          "salesIndex": 0.015,
+          "cashShare": 30.2,
+          "cashlessShare": 69.8
+        },
+        {
+          "week": 40,
+          "startDate": "2022-10-03",
+          "endDate": "2022-10-09",
+          "receiptIndex": -0.08,
+          "salesIndex": 0.004,
+          "cashShare": 36.1,
+          "cashlessShare": 63.9
+        },
+        {
+          "week": 41,
+          "startDate": "2022-10-10",
+          "endDate": "2022-10-16",
+          "receiptIndex": -0.085,
+          "salesIndex": -0.002,
+          "cashShare": 37.7,
+          "cashlessShare": 62.3
+        },
+        {
+          "week": 42,
+          "startDate": "2022-10-17",
+          "endDate": "2022-10-23",
+          "receiptIndex": -0.075,
+          "salesIndex": 0,
+          "cashShare": 32.5,
+          "cashlessShare": 67.5
+        },
+        {
+          "week": 43,
+          "startDate": "2022-10-24",
+          "endDate": "2022-10-30",
+          "receiptIndex": -0.051,
+          "salesIndex": 0.01,
+          "cashShare": 32.3,
+          "cashlessShare": 67.7
+        },
+        {
+          "week": 44,
+          "startDate": "2022-10-31",
+          "endDate": "2022-11-06",
+          "receiptIndex": -0.02,
+          "salesIndex": 0.023,
+          "cashShare": 38.7,
+          "cashlessShare": 61.3
+        },
+        {
+          "week": 45,
+          "startDate": "2022-11-07",
+          "endDate": "2022-11-13",
+          "receiptIndex": 0.013,
+          "salesIndex": 0.038,
+          "cashShare": 39.9,
+          "cashlessShare": 60.1
+        },
+        {
+          "week": 46,
+          "startDate": "2022-11-14",
+          "endDate": "2022-11-20",
+          "receiptIndex": 0.038,
+          "salesIndex": 0.048,
+          "cashShare": 34.8,
+          "cashlessShare": 65.2
+        },
+        {
+          "week": 47,
+          "startDate": "2022-11-21",
+          "endDate": "2022-11-27",
+          "receiptIndex": 0.051,
+          "salesIndex": 0.051,
+          "cashShare": 35.3,
+          "cashlessShare": 64.7
+        },
+        {
+          "week": 48,
+          "startDate": "2022-11-28",
+          "endDate": "2022-12-04",
+          "receiptIndex": 0.048,
+          "salesIndex": 0.045,
+          "cashShare": 41.6,
+          "cashlessShare": 58.4
+        },
+        {
+          "week": 49,
+          "startDate": "2022-12-05",
+          "endDate": "2022-12-11",
+          "receiptIndex": 0.032,
+          "salesIndex": 0.032,
+          "cashShare": 41.8,
+          "cashlessShare": 58.2
+        },
+        {
+          "week": 50,
+          "startDate": "2022-12-12",
+          "endDate": "2022-12-18",
+          "receiptIndex": 0.009,
+          "salesIndex": 0.018,
+          "cashShare": 36.3,
+          "cashlessShare": 63.7
+        },
+        {
+          "week": 51,
+          "startDate": "2022-12-19",
+          "endDate": "2022-12-25",
+          "receiptIndex": -0.013,
+          "salesIndex": 0.007,
+          "cashShare": 37,
+          "cashlessShare": 63
+        },
+        {
+          "week": 52,
+          "startDate": "2022-12-26",
+          "endDate": "2023-01-01",
+          "receiptIndex": -0.029,
+          "salesIndex": 0.003,
+          "cashShare": 42.6,
+          "cashlessShare": 57.4
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "weeks": [
+        {
+          "week": 1,
+          "startDate": "2023-01-02",
+          "endDate": "2023-01-08",
+          "receiptIndex": 0.041,
+          "salesIndex": 0.086,
+          "cashShare": 38.4,
+          "cashlessShare": 61.6
+        },
+        {
+          "week": 2,
+          "startDate": "2023-01-09",
+          "endDate": "2023-01-15",
+          "receiptIndex": 0.016,
+          "salesIndex": 0.064,
+          "cashShare": 32.4,
+          "cashlessShare": 67.6
+        },
+        {
+          "week": 3,
+          "startDate": "2023-01-16",
+          "endDate": "2023-01-22",
+          "receiptIndex": -0.016,
+          "salesIndex": 0.035,
+          "cashShare": 30.1,
+          "cashlessShare": 69.9
+        },
+        {
+          "week": 4,
+          "startDate": "2023-01-23",
+          "endDate": "2023-01-29",
+          "receiptIndex": -0.047,
+          "salesIndex": 0.005,
+          "cashShare": 35.3,
+          "cashlessShare": 64.7
+        },
+        {
+          "week": 5,
+          "startDate": "2023-01-30",
+          "endDate": "2023-02-05",
+          "receiptIndex": -0.071,
+          "salesIndex": -0.02,
+          "cashShare": 36.5,
+          "cashlessShare": 63.5
+        },
+        {
+          "week": 6,
+          "startDate": "2023-02-06",
+          "endDate": "2023-02-12",
+          "receiptIndex": -0.081,
+          "salesIndex": -0.035,
+          "cashShare": 30.8,
+          "cashlessShare": 69.2
+        },
+        {
+          "week": 7,
+          "startDate": "2023-02-13",
+          "endDate": "2023-02-19",
+          "receiptIndex": -0.075,
+          "salesIndex": -0.037,
+          "cashShare": 29.8,
+          "cashlessShare": 70.2
+        },
+        {
+          "week": 8,
+          "startDate": "2023-02-20",
+          "endDate": "2023-02-26",
+          "receiptIndex": -0.057,
+          "salesIndex": -0.029,
+          "cashShare": 35.7,
+          "cashlessShare": 64.3
+        },
+        {
+          "week": 9,
+          "startDate": "2023-02-27",
+          "endDate": "2023-03-05",
+          "receiptIndex": -0.032,
+          "salesIndex": -0.012,
+          "cashShare": 36.9,
+          "cashlessShare": 63.1
+        },
+        {
+          "week": 10,
+          "startDate": "2023-03-06",
+          "endDate": "2023-03-12",
+          "receiptIndex": -0.007,
+          "salesIndex": 0.007,
+          "cashShare": 31.7,
+          "cashlessShare": 68.3
+        },
+        {
+          "week": 11,
+          "startDate": "2023-03-13",
+          "endDate": "2023-03-19",
+          "receiptIndex": 0.01,
+          "salesIndex": 0.023,
+          "cashShare": 31.8,
+          "cashlessShare": 68.2
+        },
+        {
+          "week": 12,
+          "startDate": "2023-03-20",
+          "endDate": "2023-03-26",
+          "receiptIndex": 0.015,
+          "salesIndex": 0.033,
+          "cashShare": 38.2,
+          "cashlessShare": 61.8
+        },
+        {
+          "week": 13,
+          "startDate": "2023-03-27",
+          "endDate": "2023-04-02",
+          "receiptIndex": 0.008,
+          "salesIndex": 0.036,
+          "cashShare": 39,
+          "cashlessShare": 61
+        },
+        {
+          "week": 14,
+          "startDate": "2023-04-03",
+          "endDate": "2023-04-09",
+          "receiptIndex": -0.006,
+          "salesIndex": 0.034,
+          "cashShare": 33.9,
+          "cashlessShare": 66.1
+        },
+        {
+          "week": 15,
+          "startDate": "2023-04-10",
+          "endDate": "2023-04-16",
+          "receiptIndex": -0.022,
+          "salesIndex": 0.031,
+          "cashShare": 34.8,
+          "cashlessShare": 65.2
+        },
+        {
+          "week": 16,
+          "startDate": "2023-04-17",
+          "endDate": "2023-04-23",
+          "receiptIndex": -0.033,
+          "salesIndex": 0.03,
+          "cashShare": 41.1,
+          "cashlessShare": 58.9
+        },
+        {
+          "week": 17,
+          "startDate": "2023-04-24",
+          "endDate": "2023-04-30",
+          "receiptIndex": -0.033,
+          "salesIndex": 0.035,
+          "cashShare": 41,
+          "cashlessShare": 59
+        },
+        {
+          "week": 18,
+          "startDate": "2023-05-01",
+          "endDate": "2023-05-07",
+          "receiptIndex": -0.021,
+          "salesIndex": 0.045,
+          "cashShare": 35.6,
+          "cashlessShare": 64.4
+        },
+        {
+          "week": 19,
+          "startDate": "2023-05-08",
+          "endDate": "2023-05-14",
+          "receiptIndex": 0.003,
+          "salesIndex": 0.061,
+          "cashShare": 36.7,
+          "cashlessShare": 63.3
+        },
+        {
+          "week": 20,
+          "startDate": "2023-05-15",
+          "endDate": "2023-05-21",
+          "receiptIndex": 0.03,
+          "salesIndex": 0.077,
+          "cashShare": 42.3,
+          "cashlessShare": 57.7
+        },
+        {
+          "week": 21,
+          "startDate": "2023-05-22",
+          "endDate": "2023-05-28",
+          "receiptIndex": 0.056,
+          "salesIndex": 0.089,
+          "cashShare": 41,
+          "cashlessShare": 59
+        },
+        {
+          "week": 22,
+          "startDate": "2023-05-29",
+          "endDate": "2023-06-04",
+          "receiptIndex": 0.07,
+          "salesIndex": 0.091,
+          "cashShare": 35.1,
+          "cashlessShare": 64.9
+        },
+        {
+          "week": 23,
+          "startDate": "2023-06-05",
+          "endDate": "2023-06-11",
+          "receiptIndex": 0.071,
+          "salesIndex": 0.083,
+          "cashShare": 36.2,
+          "cashlessShare": 63.8
+        },
+        {
+          "week": 24,
+          "startDate": "2023-06-12",
+          "endDate": "2023-06-18",
+          "receiptIndex": 0.055,
+          "salesIndex": 0.064,
+          "cashShare": 41.2,
+          "cashlessShare": 58.8
+        },
+        {
+          "week": 25,
+          "startDate": "2023-06-19",
+          "endDate": "2023-06-25",
+          "receiptIndex": 0.028,
+          "salesIndex": 0.038,
+          "cashShare": 38.7,
+          "cashlessShare": 61.3
+        },
+        {
+          "week": 26,
+          "startDate": "2023-06-26",
+          "endDate": "2023-07-02",
+          "receiptIndex": -0.004,
+          "salesIndex": 0.01,
+          "cashShare": 32.6,
+          "cashlessShare": 67.4
+        },
+        {
+          "week": 27,
+          "startDate": "2023-07-03",
+          "endDate": "2023-07-09",
+          "receiptIndex": -0.032,
+          "salesIndex": -0.012,
+          "cashShare": 34.1,
+          "cashlessShare": 65.9
+        },
+        {
+          "week": 28,
+          "startDate": "2023-07-10",
+          "endDate": "2023-07-16",
+          "receiptIndex": -0.051,
+          "salesIndex": -0.025,
+          "cashShare": 38.7,
+          "cashlessShare": 61.3
+        },
+        {
+          "week": 29,
+          "startDate": "2023-07-17",
+          "endDate": "2023-07-23",
+          "receiptIndex": -0.057,
+          "salesIndex": -0.027,
+          "cashShare": 35.6,
+          "cashlessShare": 64.4
+        },
+        {
+          "week": 30,
+          "startDate": "2023-07-24",
+          "endDate": "2023-07-30",
+          "receiptIndex": -0.049,
+          "salesIndex": -0.016,
+          "cashShare": 30,
+          "cashlessShare": 70
+        },
+        {
+          "week": 31,
+          "startDate": "2023-07-31",
+          "endDate": "2023-08-06",
+          "receiptIndex": -0.032,
+          "salesIndex": 0.004,
+          "cashShare": 32.4,
+          "cashlessShare": 67.6
+        },
+        {
+          "week": 32,
+          "startDate": "2023-08-07",
+          "endDate": "2023-08-13",
+          "receiptIndex": -0.013,
+          "salesIndex": 0.025,
+          "cashShare": 37,
+          "cashlessShare": 63
+        },
+        {
+          "week": 33,
+          "startDate": "2023-08-14",
+          "endDate": "2023-08-20",
+          "receiptIndex": 0.001,
+          "salesIndex": 0.043,
+          "cashShare": 33.8,
+          "cashlessShare": 66.2
+        },
+        {
+          "week": 34,
+          "startDate": "2023-08-21",
+          "endDate": "2023-08-27",
+          "receiptIndex": 0.004,
+          "salesIndex": 0.053,
+          "cashShare": 29.1,
+          "cashlessShare": 70.9
+        },
+        {
+          "week": 35,
+          "startDate": "2023-08-28",
+          "endDate": "2023-09-03",
+          "receiptIndex": -0.004,
+          "salesIndex": 0.053,
+          "cashShare": 32.6,
+          "cashlessShare": 67.4
+        },
+        {
+          "week": 36,
+          "startDate": "2023-09-04",
+          "endDate": "2023-09-10",
+          "receiptIndex": -0.021,
+          "salesIndex": 0.045,
+          "cashShare": 37.5,
+          "cashlessShare": 62.5
+        },
+        {
+          "week": 37,
+          "startDate": "2023-09-11",
+          "endDate": "2023-09-17",
+          "receiptIndex": -0.042,
+          "salesIndex": 0.03,
+          "cashShare": 34.4,
+          "cashlessShare": 65.6
+        },
+        {
+          "week": 38,
+          "startDate": "2023-09-18",
+          "endDate": "2023-09-24",
+          "receiptIndex": -0.059,
+          "salesIndex": 0.016,
+          "cashShare": 30.6,
+          "cashlessShare": 69.4
+        },
+        {
+          "week": 39,
+          "startDate": "2023-09-25",
+          "endDate": "2023-10-01",
+          "receiptIndex": -0.065,
+          "salesIndex": 0.007,
+          "cashShare": 35.1,
+          "cashlessShare": 64.9
+        },
+        {
+          "week": 40,
+          "startDate": "2023-10-02",
+          "endDate": "2023-10-08",
+          "receiptIndex": -0.057,
+          "salesIndex": 0.006,
+          "cashShare": 39.9,
+          "cashlessShare": 60.1
+        },
+        {
+          "week": 41,
+          "startDate": "2023-10-09",
+          "endDate": "2023-10-15",
+          "receiptIndex": -0.036,
+          "salesIndex": 0.012,
+          "cashShare": 36.5,
+          "cashlessShare": 63.5
+        },
+        {
+          "week": 42,
+          "startDate": "2023-10-16",
+          "endDate": "2023-10-22",
+          "receiptIndex": -0.005,
+          "salesIndex": 0.026,
+          "cashShare": 33.3,
+          "cashlessShare": 66.7
+        },
+        {
+          "week": 43,
+          "startDate": "2023-10-23",
+          "endDate": "2023-10-29",
+          "receiptIndex": 0.027,
+          "salesIndex": 0.04,
+          "cashShare": 38.2,
+          "cashlessShare": 61.8
+        },
+        {
+          "week": 44,
+          "startDate": "2023-10-30",
+          "endDate": "2023-11-05",
+          "receiptIndex": 0.054,
+          "salesIndex": 0.053,
+          "cashShare": 42.3,
+          "cashlessShare": 57.7
+        },
+        {
+          "week": 45,
+          "startDate": "2023-11-06",
+          "endDate": "2023-11-12",
+          "receiptIndex": 0.068,
+          "salesIndex": 0.059,
+          "cashShare": 38.1,
+          "cashlessShare": 61.9
+        },
+        {
+          "week": 46,
+          "startDate": "2023-11-13",
+          "endDate": "2023-11-19",
+          "receiptIndex": 0.066,
+          "salesIndex": 0.056,
+          "cashShare": 35,
+          "cashlessShare": 65
+        },
+        {
+          "week": 47,
+          "startDate": "2023-11-20",
+          "endDate": "2023-11-26",
+          "receiptIndex": 0.051,
+          "salesIndex": 0.047,
+          "cashShare": 39.8,
+          "cashlessShare": 60.2
+        },
+        {
+          "week": 48,
+          "startDate": "2023-11-27",
+          "endDate": "2023-12-03",
+          "receiptIndex": 0.027,
+          "salesIndex": 0.035,
+          "cashShare": 42.8,
+          "cashlessShare": 57.2
+        },
+        {
+          "week": 49,
+          "startDate": "2023-12-04",
+          "endDate": "2023-12-10",
+          "receiptIndex": 0.001,
+          "salesIndex": 0.023,
+          "cashShare": 37.6,
+          "cashlessShare": 62.4
+        },
+        {
+          "week": 50,
+          "startDate": "2023-12-11",
+          "endDate": "2023-12-17",
+          "receiptIndex": -0.018,
+          "salesIndex": 0.018,
+          "cashShare": 34.5,
+          "cashlessShare": 65.5
+        },
+        {
+          "week": 51,
+          "startDate": "2023-12-18",
+          "endDate": "2023-12-24",
+          "receiptIndex": -0.027,
+          "salesIndex": 0.02,
+          "cashShare": 39,
+          "cashlessShare": 61
+        },
+        {
+          "week": 52,
+          "startDate": "2023-12-25",
+          "endDate": "2023-12-31",
+          "receiptIndex": -0.023,
+          "salesIndex": 0.031,
+          "cashShare": 40.9,
+          "cashlessShare": 59.1
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "weeks": [
+        {
+          "week": 1,
+          "startDate": "2024-01-01",
+          "endDate": "2024-01-07",
+          "receiptIndex": -0.005,
+          "salesIndex": 0.035,
+          "cashShare": 33.1,
+          "cashlessShare": 66.9
+        },
+        {
+          "week": 2,
+          "startDate": "2024-01-08",
+          "endDate": "2024-01-14",
+          "receiptIndex": -0.037,
+          "salesIndex": 0.004,
+          "cashShare": 28.5,
+          "cashlessShare": 71.5
+        },
+        {
+          "week": 3,
+          "startDate": "2024-01-15",
+          "endDate": "2024-01-21",
+          "receiptIndex": -0.061,
+          "salesIndex": -0.021,
+          "cashShare": 32.3,
+          "cashlessShare": 67.7
+        },
+        {
+          "week": 4,
+          "startDate": "2024-01-22",
+          "endDate": "2024-01-28",
+          "receiptIndex": -0.072,
+          "salesIndex": -0.035,
+          "cashShare": 36.9,
+          "cashlessShare": 63.1
+        },
+        {
+          "week": 5,
+          "startDate": "2024-01-29",
+          "endDate": "2024-02-04",
+          "receiptIndex": -0.068,
+          "salesIndex": -0.036,
+          "cashShare": 33.5,
+          "cashlessShare": 66.5
+        },
+        {
+          "week": 6,
+          "startDate": "2024-02-05",
+          "endDate": "2024-02-11",
+          "receiptIndex": -0.049,
+          "salesIndex": -0.024,
+          "cashShare": 29.9,
+          "cashlessShare": 70.1
+        },
+        {
+          "week": 7,
+          "startDate": "2024-02-12",
+          "endDate": "2024-02-18",
+          "receiptIndex": -0.023,
+          "salesIndex": -0.005,
+          "cashShare": 34.7,
+          "cashlessShare": 65.3
+        },
+        {
+          "week": 8,
+          "startDate": "2024-02-19",
+          "endDate": "2024-02-25",
+          "receiptIndex": 0.005,
+          "salesIndex": 0.019,
+          "cashShare": 39.2,
+          "cashlessShare": 60.8
+        },
+        {
+          "week": 9,
+          "startDate": "2024-02-26",
+          "endDate": "2024-03-03",
+          "receiptIndex": 0.026,
+          "salesIndex": 0.04,
+          "cashShare": 35.5,
+          "cashlessShare": 64.5
+        },
+        {
+          "week": 10,
+          "startDate": "2024-03-04",
+          "endDate": "2024-03-10",
+          "receiptIndex": 0.035,
+          "salesIndex": 0.054,
+          "cashShare": 32.6,
+          "cashlessShare": 67.4
+        },
+        {
+          "week": 11,
+          "startDate": "2024-03-11",
+          "endDate": "2024-03-17",
+          "receiptIndex": 0.032,
+          "salesIndex": 0.06,
+          "cashShare": 37.8,
+          "cashlessShare": 62.2
+        },
+        {
+          "week": 12,
+          "startDate": "2024-03-18",
+          "endDate": "2024-03-24",
+          "receiptIndex": 0.019,
+          "salesIndex": 0.059,
+          "cashShare": 41.6,
+          "cashlessShare": 58.4
+        },
+        {
+          "week": 13,
+          "startDate": "2024-03-25",
+          "endDate": "2024-03-31",
+          "receiptIndex": 0.002,
+          "salesIndex": 0.054,
+          "cashShare": 37.3,
+          "cashlessShare": 62.7
+        },
+        {
+          "week": 14,
+          "startDate": "2024-04-01",
+          "endDate": "2024-04-07",
+          "receiptIndex": -0.011,
+          "salesIndex": 0.05,
+          "cashShare": 34.5,
+          "cashlessShare": 65.5
+        },
+        {
+          "week": 15,
+          "startDate": "2024-04-08",
+          "endDate": "2024-04-14",
+          "receiptIndex": -0.015,
+          "salesIndex": 0.049,
+          "cashShare": 39.6,
+          "cashlessShare": 60.4
+        },
+        {
+          "week": 16,
+          "startDate": "2024-04-15",
+          "endDate": "2024-04-21",
+          "receiptIndex": -0.006,
+          "salesIndex": 0.055,
+          "cashShare": 42.3,
+          "cashlessShare": 57.7
+        },
+        {
+          "week": 17,
+          "startDate": "2024-04-22",
+          "endDate": "2024-04-28",
+          "receiptIndex": 0.013,
+          "salesIndex": 0.065,
+          "cashShare": 37,
+          "cashlessShare": 63
+        },
+        {
+          "week": 18,
+          "startDate": "2024-04-29",
+          "endDate": "2024-05-05",
+          "receiptIndex": 0.039,
+          "salesIndex": 0.077,
+          "cashShare": 34.2,
+          "cashlessShare": 65.8
+        },
+        {
+          "week": 19,
+          "startDate": "2024-05-06",
+          "endDate": "2024-05-12",
+          "receiptIndex": 0.063,
+          "salesIndex": 0.087,
+          "cashShare": 39,
+          "cashlessShare": 61
+        },
+        {
+          "week": 20,
+          "startDate": "2024-05-13",
+          "endDate": "2024-05-19",
+          "receiptIndex": 0.078,
+          "salesIndex": 0.089,
+          "cashShare": 40.6,
+          "cashlessShare": 59.4
+        },
+        {
+          "week": 21,
+          "startDate": "2024-05-20",
+          "endDate": "2024-05-26",
+          "receiptIndex": 0.079,
+          "salesIndex": 0.081,
+          "cashShare": 34.5,
+          "cashlessShare": 65.5
+        },
+        {
+          "week": 22,
+          "startDate": "2024-05-27",
+          "endDate": "2024-06-02",
+          "receiptIndex": 0.065,
+          "salesIndex": 0.064,
+          "cashShare": 32,
+          "cashlessShare": 68
+        },
+        {
+          "week": 23,
+          "startDate": "2024-06-03",
+          "endDate": "2024-06-09",
+          "receiptIndex": 0.039,
+          "salesIndex": 0.041,
+          "cashShare": 36.8,
+          "cashlessShare": 63.2
+        },
+        {
+          "week": 24,
+          "startDate": "2024-06-10",
+          "endDate": "2024-06-16",
+          "receiptIndex": 0.006,
+          "salesIndex": 0.015,
+          "cashShare": 37.7,
+          "cashlessShare": 62.3
+        },
+        {
+          "week": 25,
+          "startDate": "2024-06-17",
+          "endDate": "2024-06-23",
+          "receiptIndex": -0.024,
+          "salesIndex": -0.006,
+          "cashShare": 31.5,
+          "cashlessShare": 68.5
+        },
+        {
+          "week": 26,
+          "startDate": "2024-06-24",
+          "endDate": "2024-06-30",
+          "receiptIndex": -0.046,
+          "salesIndex": -0.019,
+          "cashShare": 29.8,
+          "cashlessShare": 70.2
+        },
+        {
+          "week": 27,
+          "startDate": "2024-07-01",
+          "endDate": "2024-07-07",
+          "receiptIndex": -0.054,
+          "salesIndex": -0.019,
+          "cashShare": 35.1,
+          "cashlessShare": 64.9
+        },
+        {
+          "week": 28,
+          "startDate": "2024-07-08",
+          "endDate": "2024-07-14",
+          "receiptIndex": -0.047,
+          "salesIndex": -0.007,
+          "cashShare": 35.8,
+          "cashlessShare": 64.2
+        },
+        {
+          "week": 29,
+          "startDate": "2024-07-15",
+          "endDate": "2024-07-21",
+          "receiptIndex": -0.03,
+          "salesIndex": 0.013,
+          "cashShare": 30,
+          "cashlessShare": 70
+        },
+        {
+          "week": 30,
+          "startDate": "2024-07-22",
+          "endDate": "2024-07-28",
+          "receiptIndex": -0.01,
+          "salesIndex": 0.035,
+          "cashShare": 29.5,
+          "cashlessShare": 70.5
+        },
+        {
+          "week": 31,
+          "startDate": "2024-07-29",
+          "endDate": "2024-08-04",
+          "receiptIndex": 0.008,
+          "salesIndex": 0.055,
+          "cashShare": 35.5,
+          "cashlessShare": 64.5
+        },
+        {
+          "week": 32,
+          "startDate": "2024-08-05",
+          "endDate": "2024-08-11",
+          "receiptIndex": 0.016,
+          "salesIndex": 0.067,
+          "cashShare": 36.1,
+          "cashlessShare": 63.9
+        },
+        {
+          "week": 33,
+          "startDate": "2024-08-12",
+          "endDate": "2024-08-18",
+          "receiptIndex": 0.013,
+          "salesIndex": 0.068,
+          "cashShare": 30.9,
+          "cashlessShare": 69.1
+        },
+        {
+          "week": 34,
+          "startDate": "2024-08-19",
+          "endDate": "2024-08-25",
+          "receiptIndex": -0.001,
+          "salesIndex": 0.059,
+          "cashShare": 31.6,
+          "cashlessShare": 68.4
+        },
+        {
+          "week": 35,
+          "startDate": "2024-08-26",
+          "endDate": "2024-09-01",
+          "receiptIndex": -0.02,
+          "salesIndex": 0.044,
+          "cashShare": 38,
+          "cashlessShare": 62
+        },
+        {
+          "week": 36,
+          "startDate": "2024-09-02",
+          "endDate": "2024-09-08",
+          "receiptIndex": -0.036,
+          "salesIndex": 0.028,
+          "cashShare": 38.2,
+          "cashlessShare": 61.8
+        },
+        {
+          "week": 37,
+          "startDate": "2024-09-09",
+          "endDate": "2024-09-15",
+          "receiptIndex": -0.044,
+          "salesIndex": 0.015,
+          "cashShare": 33.2,
+          "cashlessShare": 66.8
+        },
+        {
+          "week": 38,
+          "startDate": "2024-09-16",
+          "endDate": "2024-09-22",
+          "receiptIndex": -0.039,
+          "salesIndex": 0.011,
+          "cashShare": 34.6,
+          "cashlessShare": 65.4
+        },
+        {
+          "week": 39,
+          "startDate": "2024-09-23",
+          "endDate": "2024-09-29",
+          "receiptIndex": -0.02,
+          "salesIndex": 0.016,
+          "cashShare": 40.8,
+          "cashlessShare": 59.2
+        },
+        {
+          "week": 40,
+          "startDate": "2024-09-30",
+          "endDate": "2024-10-06",
+          "receiptIndex": 0.009,
+          "salesIndex": 0.028,
+          "cashShare": 40.2,
+          "cashlessShare": 59.8
+        },
+        {
+          "week": 41,
+          "startDate": "2024-10-07",
+          "endDate": "2024-10-13",
+          "receiptIndex": 0.041,
+          "salesIndex": 0.044,
+          "cashShare": 34.9,
+          "cashlessShare": 65.1
+        },
+        {
+          "week": 42,
+          "startDate": "2024-10-14",
+          "endDate": "2024-10-20",
+          "receiptIndex": 0.067,
+          "salesIndex": 0.058,
+          "cashShare": 36.5,
+          "cashlessShare": 63.5
+        },
+        {
+          "week": 43,
+          "startDate": "2024-10-21",
+          "endDate": "2024-10-27",
+          "receiptIndex": 0.083,
+          "salesIndex": 0.068,
+          "cashShare": 42,
+          "cashlessShare": 58
+        },
+        {
+          "week": 44,
+          "startDate": "2024-10-28",
+          "endDate": "2024-11-03",
+          "receiptIndex": 0.082,
+          "salesIndex": 0.069,
+          "cashShare": 40.1,
+          "cashlessShare": 59.9
+        },
+        {
+          "week": 45,
+          "startDate": "2024-11-04",
+          "endDate": "2024-11-10",
+          "receiptIndex": 0.068,
+          "salesIndex": 0.063,
+          "cashShare": 34.4,
+          "cashlessShare": 65.6
+        },
+        {
+          "week": 46,
+          "startDate": "2024-11-11",
+          "endDate": "2024-11-17",
+          "receiptIndex": 0.042,
+          "salesIndex": 0.051,
+          "cashShare": 36.1,
+          "cashlessShare": 63.9
+        },
+        {
+          "week": 47,
+          "startDate": "2024-11-18",
+          "endDate": "2024-11-24",
+          "receiptIndex": 0.014,
+          "salesIndex": 0.04,
+          "cashShare": 40.8,
+          "cashlessShare": 59.2
+        },
+        {
+          "week": 48,
+          "startDate": "2024-11-25",
+          "endDate": "2024-12-01",
+          "receiptIndex": -0.009,
+          "salesIndex": 0.032,
+          "cashShare": 37.8,
+          "cashlessShare": 62.2
+        },
+        {
+          "week": 49,
+          "startDate": "2024-12-02",
+          "endDate": "2024-12-08",
+          "receiptIndex": -0.022,
+          "salesIndex": 0.031,
+          "cashShare": 32,
+          "cashlessShare": 68
+        },
+        {
+          "week": 50,
+          "startDate": "2024-12-09",
+          "endDate": "2024-12-15",
+          "receiptIndex": -0.022,
+          "salesIndex": 0.038,
+          "cashShare": 34,
+          "cashlessShare": 66
+        },
+        {
+          "week": 51,
+          "startDate": "2024-12-16",
+          "endDate": "2024-12-22",
+          "receiptIndex": -0.011,
+          "salesIndex": 0.05,
+          "cashShare": 38.3,
+          "cashlessShare": 61.7
+        },
+        {
+          "week": 52,
+          "startDate": "2024-12-23",
+          "endDate": "2024-12-29",
+          "receiptIndex": 0.005,
+          "salesIndex": 0.063,
+          "cashShare": 34.7,
+          "cashlessShare": 65.3
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "weeks": [
+        {
+          "week": 1,
+          "startDate": "2024-12-30",
+          "endDate": "2025-01-05",
+          "receiptIndex": -0.049,
+          "salesIndex": -0.018,
+          "cashShare": 30,
+          "cashlessShare": 70
+        },
+        {
+          "week": 2,
+          "startDate": "2025-01-06",
+          "endDate": "2025-01-12",
+          "receiptIndex": -0.061,
+          "salesIndex": -0.031,
+          "cashShare": 31.1,
+          "cashlessShare": 68.9
+        },
+        {
+          "week": 3,
+          "startDate": "2025-01-13",
+          "endDate": "2025-01-19",
+          "receiptIndex": -0.058,
+          "salesIndex": -0.031,
+          "cashShare": 37.4,
+          "cashlessShare": 62.6
+        },
+        {
+          "week": 4,
+          "startDate": "2025-01-20",
+          "endDate": "2025-01-26",
+          "receiptIndex": -0.04,
+          "salesIndex": -0.017,
+          "cashShare": 37.3,
+          "cashlessShare": 62.7
+        },
+        {
+          "week": 5,
+          "startDate": "2025-01-27",
+          "endDate": "2025-02-02",
+          "receiptIndex": -0.012,
+          "salesIndex": 0.007,
+          "cashShare": 32.3,
+          "cashlessShare": 67.7
+        },
+        {
+          "week": 6,
+          "startDate": "2025-02-03",
+          "endDate": "2025-02-09",
+          "receiptIndex": 0.017,
+          "salesIndex": 0.033,
+          "cashShare": 34.1,
+          "cashlessShare": 65.9
+        },
+        {
+          "week": 7,
+          "startDate": "2025-02-10",
+          "endDate": "2025-02-16",
+          "receiptIndex": 0.042,
+          "salesIndex": 0.058,
+          "cashShare": 40.3,
+          "cashlessShare": 59.7
+        },
+        {
+          "week": 8,
+          "startDate": "2025-02-17",
+          "endDate": "2025-02-23",
+          "receiptIndex": 0.055,
+          "salesIndex": 0.076,
+          "cashShare": 39.3,
+          "cashlessShare": 60.7
+        },
+        {
+          "week": 9,
+          "startDate": "2025-02-24",
+          "endDate": "2025-03-02",
+          "receiptIndex": 0.055,
+          "salesIndex": 0.084,
+          "cashShare": 34.2,
+          "cashlessShare": 65.8
+        },
+        {
+          "week": 10,
+          "startDate": "2025-03-03",
+          "endDate": "2025-03-09",
+          "receiptIndex": 0.043,
+          "salesIndex": 0.083,
+          "cashShare": 36.2,
+          "cashlessShare": 63.8
+        },
+        {
+          "week": 11,
+          "startDate": "2025-03-10",
+          "endDate": "2025-03-16",
+          "receiptIndex": 0.027,
+          "salesIndex": 0.076,
+          "cashShare": 41.7,
+          "cashlessShare": 58.3
+        },
+        {
+          "week": 12,
+          "startDate": "2025-03-17",
+          "endDate": "2025-03-23",
+          "receiptIndex": 0.011,
+          "salesIndex": 0.068,
+          "cashShare": 39.4,
+          "cashlessShare": 60.6
+        },
+        {
+          "week": 13,
+          "startDate": "2025-03-24",
+          "endDate": "2025-03-30",
+          "receiptIndex": 0.004,
+          "salesIndex": 0.062,
+          "cashShare": 33.9,
+          "cashlessShare": 66.1
+        },
+        {
+          "week": 14,
+          "startDate": "2025-03-31",
+          "endDate": "2025-04-06",
+          "receiptIndex": 0.008,
+          "salesIndex": 0.062,
+          "cashShare": 36,
+          "cashlessShare": 64
+        },
+        {
+          "week": 15,
+          "startDate": "2025-04-07",
+          "endDate": "2025-04-13",
+          "receiptIndex": 0.023,
+          "salesIndex": 0.067,
+          "cashShare": 40.6,
+          "cashlessShare": 59.4
+        },
+        {
+          "week": 16,
+          "startDate": "2025-04-14",
+          "endDate": "2025-04-20",
+          "receiptIndex": 0.045,
+          "salesIndex": 0.074,
+          "cashShare": 37.3,
+          "cashlessShare": 62.7
+        },
+        {
+          "week": 17,
+          "startDate": "2025-04-21",
+          "endDate": "2025-04-27",
+          "receiptIndex": 0.068,
+          "salesIndex": 0.082,
+          "cashShare": 31.6,
+          "cashlessShare": 68.4
+        },
+        {
+          "week": 18,
+          "startDate": "2025-04-28",
+          "endDate": "2025-05-04",
+          "receiptIndex": 0.084,
+          "salesIndex": 0.085,
+          "cashShare": 34,
+          "cashlessShare": 66
+        },
+        {
+          "week": 19,
+          "startDate": "2025-05-05",
+          "endDate": "2025-05-11",
+          "receiptIndex": 0.086,
+          "salesIndex": 0.079,
+          "cashShare": 38.1,
+          "cashlessShare": 61.9
+        },
+        {
+          "week": 20,
+          "startDate": "2025-05-12",
+          "endDate": "2025-05-18",
+          "receiptIndex": 0.074,
+          "salesIndex": 0.065,
+          "cashShare": 34.1,
+          "cashlessShare": 65.9
+        },
+        {
+          "week": 21,
+          "startDate": "2025-05-19",
+          "endDate": "2025-05-25",
+          "receiptIndex": 0.049,
+          "salesIndex": 0.045,
+          "cashShare": 29,
+          "cashlessShare": 71
+        },
+        {
+          "week": 22,
+          "startDate": "2025-05-26",
+          "endDate": "2025-06-01",
+          "receiptIndex": 0.016,
+          "salesIndex": 0.021,
+          "cashShare": 32.1,
+          "cashlessShare": 67.9
+        },
+        {
+          "week": 23,
+          "startDate": "2025-06-02",
+          "endDate": "2025-06-08",
+          "receiptIndex": -0.016,
+          "salesIndex": 0.002,
+          "cashShare": 36.2,
+          "cashlessShare": 63.8
+        },
+        {
+          "week": 24,
+          "startDate": "2025-06-09",
+          "endDate": "2025-06-15",
+          "receiptIndex": -0.039,
+          "salesIndex": -0.009,
+          "cashShare": 32.2,
+          "cashlessShare": 67.8
+        },
+        {
+          "week": 25,
+          "startDate": "2025-06-16",
+          "endDate": "2025-06-22",
+          "receiptIndex": -0.049,
+          "salesIndex": -0.009,
+          "cashShare": 28,
+          "cashlessShare": 72
+        },
+        {
+          "week": 26,
+          "startDate": "2025-06-23",
+          "endDate": "2025-06-29",
+          "receiptIndex": -0.044,
+          "salesIndex": 0.003,
+          "cashShare": 32.2,
+          "cashlessShare": 67.8
+        },
+        {
+          "week": 27,
+          "startDate": "2025-06-30",
+          "endDate": "2025-07-06",
+          "receiptIndex": -0.027,
+          "salesIndex": 0.023,
+          "cashShare": 36.4,
+          "cashlessShare": 63.6
+        },
+        {
+          "week": 28,
+          "startDate": "2025-07-07",
+          "endDate": "2025-07-13",
+          "receiptIndex": -0.005,
+          "salesIndex": 0.046,
+          "cashShare": 32.6,
+          "cashlessShare": 67.4
+        },
+        {
+          "week": 29,
+          "startDate": "2025-07-14",
+          "endDate": "2025-07-20",
+          "receiptIndex": 0.016,
+          "salesIndex": 0.067,
+          "cashShare": 29.4,
+          "cashlessShare": 70.6
+        },
+        {
+          "week": 30,
+          "startDate": "2025-07-21",
+          "endDate": "2025-07-27",
+          "receiptIndex": 0.029,
+          "salesIndex": 0.079,
+          "cashShare": 34.6,
+          "cashlessShare": 65.4
+        },
+        {
+          "week": 31,
+          "startDate": "2025-07-28",
+          "endDate": "2025-08-03",
+          "receiptIndex": 0.03,
+          "salesIndex": 0.081,
+          "cashShare": 38.7,
+          "cashlessShare": 61.3
+        },
+        {
+          "week": 32,
+          "startDate": "2025-08-04",
+          "endDate": "2025-08-10",
+          "receiptIndex": 0.021,
+          "salesIndex": 0.073,
+          "cashShare": 34.6,
+          "cashlessShare": 65.4
+        },
+        {
+          "week": 33,
+          "startDate": "2025-08-11",
+          "endDate": "2025-08-17",
+          "receiptIndex": 0.004,
+          "salesIndex": 0.056,
+          "cashShare": 32.2,
+          "cashlessShare": 67.8
+        },
+        {
+          "week": 34,
+          "startDate": "2025-08-18",
+          "endDate": "2025-08-24",
+          "receiptIndex": -0.013,
+          "salesIndex": 0.038,
+          "cashShare": 37.7,
+          "cashlessShare": 62.3
+        },
+        {
+          "week": 35,
+          "startDate": "2025-08-25",
+          "endDate": "2025-08-31",
+          "receiptIndex": -0.022,
+          "salesIndex": 0.023,
+          "cashShare": 41,
+          "cashlessShare": 59
+        },
+        {
+          "week": 36,
+          "startDate": "2025-09-01",
+          "endDate": "2025-09-07",
+          "receiptIndex": -0.02,
+          "salesIndex": 0.016,
+          "cashShare": 36.4,
+          "cashlessShare": 63.6
+        },
+        {
+          "week": 37,
+          "startDate": "2025-09-08",
+          "endDate": "2025-09-14",
+          "receiptIndex": -0.004,
+          "salesIndex": 0.02,
+          "cashShare": 34.1,
+          "cashlessShare": 65.9
+        },
+        {
+          "week": 38,
+          "startDate": "2025-09-15",
+          "endDate": "2025-09-21",
+          "receiptIndex": 0.022,
+          "salesIndex": 0.031,
+          "cashShare": 39.4,
+          "cashlessShare": 60.6
+        },
+        {
+          "week": 39,
+          "startDate": "2025-09-22",
+          "endDate": "2025-09-28",
+          "receiptIndex": 0.053,
+          "salesIndex": 0.049,
+          "cashShare": 41.6,
+          "cashlessShare": 58.4
+        },
+        {
+          "week": 40,
+          "startDate": "2025-09-29",
+          "endDate": "2025-10-05",
+          "receiptIndex": 0.079,
+          "salesIndex": 0.065,
+          "cashShare": 36.1,
+          "cashlessShare": 63.9
+        },
+        {
+          "week": 41,
+          "startDate": "2025-10-06",
+          "endDate": "2025-10-12",
+          "receiptIndex": 0.095,
+          "salesIndex": 0.078,
+          "cashShare": 33.8,
+          "cashlessShare": 66.2
+        },
+        {
+          "week": 42,
+          "startDate": "2025-10-13",
+          "endDate": "2025-10-19",
+          "receiptIndex": 0.096,
+          "salesIndex": 0.082,
+          "cashShare": 38.8,
+          "cashlessShare": 61.2
+        },
+        {
+          "week": 43,
+          "startDate": "2025-10-20",
+          "endDate": "2025-10-26",
+          "receiptIndex": 0.082,
+          "salesIndex": 0.079,
+          "cashShare": 39.9,
+          "cashlessShare": 60.1
+        },
+        {
+          "week": 44,
+          "startDate": "2025-10-27",
+          "endDate": "2025-11-02",
+          "receiptIndex": 0.056,
+          "salesIndex": 0.069,
+          "cashShare": 33.7,
+          "cashlessShare": 66.3
+        },
+        {
+          "week": 45,
+          "startDate": "2025-11-03",
+          "endDate": "2025-11-09",
+          "receiptIndex": 0.026,
+          "salesIndex": 0.056,
+          "cashShare": 31.7,
+          "cashlessShare": 68.3
+        },
+        {
+          "week": 46,
+          "startDate": "2025-11-10",
+          "endDate": "2025-11-16",
+          "receiptIndex": 0,
+          "salesIndex": 0.046,
+          "cashShare": 36.6,
+          "cashlessShare": 63.4
+        },
+        {
+          "week": 47,
+          "startDate": "2025-11-17",
+          "endDate": "2025-11-23",
+          "receiptIndex": -0.017,
+          "salesIndex": 0.041,
+          "cashShare": 36.9,
+          "cashlessShare": 63.1
+        },
+        {
+          "week": 48,
+          "startDate": "2025-11-24",
+          "endDate": "2025-11-30",
+          "receiptIndex": -0.02,
+          "salesIndex": 0.044,
+          "cashShare": 30.7,
+          "cashlessShare": 69.3
+        },
+        {
+          "week": 49,
+          "startDate": "2025-12-01",
+          "endDate": "2025-12-07",
+          "receiptIndex": -0.011,
+          "salesIndex": 0.052,
+          "cashShare": 29.6,
+          "cashlessShare": 70.4
+        },
+        {
+          "week": 50,
+          "startDate": "2025-12-08",
+          "endDate": "2025-12-14",
+          "receiptIndex": 0.005,
+          "salesIndex": 0.063,
+          "cashShare": 34.9,
+          "cashlessShare": 65.1
+        },
+        {
+          "week": 51,
+          "startDate": "2025-12-15",
+          "endDate": "2025-12-21",
+          "receiptIndex": 0.021,
+          "salesIndex": 0.071,
+          "cashShare": 35,
+          "cashlessShare": 65
+        },
+        {
+          "week": 52,
+          "startDate": "2025-12-22",
+          "endDate": "2025-12-28",
+          "receiptIndex": 0.031,
+          "salesIndex": 0.072,
+          "cashShare": 29.2,
+          "cashlessShare": 70.8
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "weeks": [
+        {
+          "week": 1,
+          "startDate": "2025-12-29",
+          "endDate": "2026-01-04",
+          "receiptIndex": -0.046,
+          "salesIndex": -0.021,
+          "cashShare": 31.5,
+          "cashlessShare": 68.5
+        },
+        {
+          "week": 2,
+          "startDate": "2026-01-05",
+          "endDate": "2026-01-11",
+          "receiptIndex": -0.029,
+          "salesIndex": -0.006,
+          "cashShare": 37.2,
+          "cashlessShare": 62.8
+        },
+        {
+          "week": 3,
+          "startDate": "2026-01-12",
+          "endDate": "2026-01-18",
+          "receiptIndex": -0.001,
+          "salesIndex": 0.02,
+          "cashShare": 40.3,
+          "cashlessShare": 59.7
+        },
+        {
+          "week": 4,
+          "startDate": "2026-01-19",
+          "endDate": "2026-01-25",
+          "receiptIndex": 0.031,
+          "salesIndex": 0.05,
+          "cashShare": 35.5,
+          "cashlessShare": 64.5
+        },
+        {
+          "week": 5,
+          "startDate": "2026-01-26",
+          "endDate": "2026-02-01",
+          "receiptIndex": 0.058,
+          "salesIndex": 0.078,
+          "cashShare": 33.6,
+          "cashlessShare": 66.4
+        },
+        {
+          "week": 6,
+          "startDate": "2026-02-02",
+          "endDate": "2026-02-08",
+          "receiptIndex": 0.075,
+          "salesIndex": 0.098,
+          "cashShare": 39.2,
+          "cashlessShare": 60.8
+        },
+        {
+          "week": 7,
+          "startDate": "2026-02-09",
+          "endDate": "2026-02-15",
+          "receiptIndex": 0.077,
+          "salesIndex": 0.106,
+          "cashShare": 41.1,
+          "cashlessShare": 58.9
+        },
+        {
+          "week": 8,
+          "startDate": "2026-02-16",
+          "endDate": "2026-02-22",
+          "receiptIndex": 0.068,
+          "salesIndex": 0.105,
+          "cashShare": 35.5,
+          "cashlessShare": 64.5
+        },
+        {
+          "week": 9,
+          "startDate": "2026-02-23",
+          "endDate": "2026-03-01",
+          "receiptIndex": 0.05,
+          "salesIndex": 0.095,
+          "cashShare": 33.6,
+          "cashlessShare": 66.4
+        },
+        {
+          "week": 10,
+          "startDate": "2026-03-02",
+          "endDate": "2026-03-08",
+          "receiptIndex": 0.032,
+          "salesIndex": 0.082,
+          "cashShare": 38.7,
+          "cashlessShare": 61.3
+        },
+        {
+          "week": 11,
+          "startDate": "2026-03-09",
+          "endDate": "2026-03-15",
+          "receiptIndex": 0.021,
+          "salesIndex": 0.071,
+          "cashShare": 39.4,
+          "cashlessShare": 60.6
+        },
+        {
+          "week": 12,
+          "startDate": "2026-03-16",
+          "endDate": "2026-03-22",
+          "receiptIndex": 0.02,
+          "salesIndex": 0.065,
+          "cashShare": 33.2,
+          "cashlessShare": 66.8
+        },
+        {
+          "week": 13,
+          "startDate": "2026-03-23",
+          "endDate": "2026-03-29",
+          "receiptIndex": 0.031,
+          "salesIndex": 0.065,
+          "cashShare": 31.6,
+          "cashlessShare": 68.4
+        },
+        {
+          "week": 14,
+          "startDate": "2026-03-30",
+          "endDate": "2026-04-05",
+          "receiptIndex": 0.05,
+          "salesIndex": 0.07,
+          "cashShare": 36.6,
+          "cashlessShare": 63.4
+        },
+        {
+          "week": 15,
+          "startDate": "2026-04-06",
+          "endDate": "2026-04-12",
+          "receiptIndex": 0.071,
+          "salesIndex": 0.076,
+          "cashShare": 36.5,
+          "cashlessShare": 63.5
+        },
+        {
+          "week": 16,
+          "startDate": "2026-04-13",
+          "endDate": "2026-04-19",
+          "receiptIndex": 0.087,
+          "salesIndex": 0.08,
+          "cashShare": 30.2,
+          "cashlessShare": 69.8
+        },
+        {
+          "week": 17,
+          "startDate": "2026-04-20",
+          "endDate": "2026-04-26",
+          "receiptIndex": 0.092,
+          "salesIndex": 0.078,
+          "cashShare": 29.4,
+          "cashlessShare": 70.6
+        },
+        {
+          "week": 18,
+          "startDate": "2026-04-27",
+          "endDate": "2026-05-03",
+          "receiptIndex": 0.081,
+          "salesIndex": 0.067,
+          "cashShare": 34.7,
+          "cashlessShare": 65.3
+        },
+        {
+          "week": 19,
+          "startDate": "2026-05-04",
+          "endDate": "2026-05-10",
+          "receiptIndex": 0.058,
+          "salesIndex": 0.051,
+          "cashShare": 34.4,
+          "cashlessShare": 65.6
+        },
+        {
+          "week": 20,
+          "startDate": "2026-05-11",
+          "endDate": "2026-05-17",
+          "receiptIndex": 0.026,
+          "salesIndex": 0.031,
+          "cashShare": 28.5,
+          "cashlessShare": 71.5
+        },
+        {
+          "week": 21,
+          "startDate": "2026-05-18",
+          "endDate": "2026-05-24",
+          "receiptIndex": -0.006,
+          "salesIndex": 0.013,
+          "cashShare": 29,
+          "cashlessShare": 71
+        },
+        {
+          "week": 22,
+          "startDate": "2026-05-25",
+          "endDate": "2026-05-31",
+          "receiptIndex": -0.031,
+          "salesIndex": 0.003,
+          "cashShare": 34.9,
+          "cashlessShare": 65.1
+        },
+        {
+          "week": 23,
+          "startDate": "2026-06-01",
+          "endDate": "2026-06-07",
+          "receiptIndex": -0.043,
+          "salesIndex": 0.003,
+          "cashShare": 34.5,
+          "cashlessShare": 65.5
+        },
+        {
+          "week": 24,
+          "startDate": "2026-06-08",
+          "endDate": "2026-06-14",
+          "receiptIndex": -0.039,
+          "salesIndex": 0.014,
+          "cashShare": 29.3,
+          "cashlessShare": 70.7
+        },
+        {
+          "week": 25,
+          "startDate": "2026-06-15",
+          "endDate": "2026-06-21",
+          "receiptIndex": -0.022,
+          "salesIndex": 0.034,
+          "cashShare": 30.9,
+          "cashlessShare": 69.1
+        },
+        {
+          "week": 26,
+          "startDate": "2026-06-22",
+          "endDate": "2026-06-28",
+          "receiptIndex": 0.002,
+          "salesIndex": 0.056,
+          "cashShare": 37.2,
+          "cashlessShare": 62.8
+        },
+        {
+          "week": 27,
+          "startDate": "2026-06-29",
+          "endDate": "2026-07-05",
+          "receiptIndex": 0.026,
+          "salesIndex": 0.077,
+          "cashShare": 36.5,
+          "cashlessShare": 63.5
+        },
+        {
+          "week": 28,
+          "startDate": "2026-07-06",
+          "endDate": "2026-07-12",
+          "receiptIndex": 0.043,
+          "salesIndex": 0.09,
+          "cashShare": 31.6,
+          "cashlessShare": 68.4
+        },
+        {
+          "week": 29,
+          "startDate": "2026-07-13",
+          "endDate": "2026-07-19",
+          "receiptIndex": 0.049,
+          "salesIndex": 0.092,
+          "cashShare": 34,
+          "cashlessShare": 66
+        },
+        {
+          "week": 30,
+          "startDate": "2026-07-20",
+          "endDate": "2026-07-26",
+          "receiptIndex": 0.043,
+          "salesIndex": 0.084,
+          "cashShare": 40,
+          "cashlessShare": 60
+        },
+        {
+          "week": 31,
+          "startDate": "2026-07-27",
+          "endDate": "2026-08-02",
+          "receiptIndex": 0.028,
+          "salesIndex": 0.067,
+          "cashShare": 38.4,
+          "cashlessShare": 61.6
+        },
+        {
+          "week": 32,
+          "startDate": "2026-08-03",
+          "endDate": "2026-08-09",
+          "receiptIndex": 0.012,
+          "salesIndex": 0.048,
+          "cashShare": 33.5,
+          "cashlessShare": 66.5
+        },
+        {
+          "week": 33,
+          "startDate": "2026-08-10",
+          "endDate": "2026-08-16",
+          "receiptIndex": 0,
+          "salesIndex": 0.031,
+          "cashShare": 36.1,
+          "cashlessShare": 63.9
+        },
+        {
+          "week": 34,
+          "startDate": "2026-08-17",
+          "endDate": "2026-08-23",
+          "receiptIndex": 0,
+          "salesIndex": 0.023,
+          "cashShare": 41.3,
+          "cashlessShare": 58.7
+        },
+        {
+          "week": 35,
+          "startDate": "2026-08-24",
+          "endDate": "2026-08-30",
+          "receiptIndex": 0.012,
+          "salesIndex": 0.025,
+          "cashShare": 38.5,
+          "cashlessShare": 61.5
+        },
+        {
+          "week": 36,
+          "startDate": "2026-08-31",
+          "endDate": "2026-09-06",
+          "receiptIndex": 0.035,
+          "salesIndex": 0.036,
+          "cashShare": 33.3,
+          "cashlessShare": 66.7
+        },
+        {
+          "week": 37,
+          "startDate": "2026-09-07",
+          "endDate": "2026-09-13",
+          "receiptIndex": 0.063,
+          "salesIndex": 0.054,
+          "cashShare": 35.8,
+          "cashlessShare": 64.2
+        },
+        {
+          "week": 38,
+          "startDate": "2026-09-14",
+          "endDate": "2026-09-20",
+          "receiptIndex": 0.089,
+          "salesIndex": 0.073,
+          "cashShare": 40.2,
+          "cashlessShare": 59.8
+        },
+        {
+          "week": 39,
+          "startDate": "2026-09-21",
+          "endDate": "2026-09-27",
+          "receiptIndex": 0.106,
+          "salesIndex": 0.089,
+          "cashShare": 36.4,
+          "cashlessShare": 63.6
+        },
+        {
+          "week": 40,
+          "startDate": "2026-09-28",
+          "endDate": "2026-10-04",
+          "receiptIndex": 0.108,
+          "salesIndex": 0.097,
+          "cashShare": 31,
+          "cashlessShare": 69
+        },
+        {
+          "week": 41,
+          "startDate": "2026-10-05",
+          "endDate": "2026-10-11",
+          "receiptIndex": 0.095,
+          "salesIndex": 0.095,
+          "cashShare": 33.9,
+          "cashlessShare": 66.1
+        },
+        {
+          "week": 42,
+          "startDate": "2026-10-12",
+          "endDate": "2026-10-18",
+          "receiptIndex": 0.069,
+          "salesIndex": 0.086,
+          "cashShare": 37.6,
+          "cashlessShare": 62.4
+        },
+        {
+          "week": 43,
+          "startDate": "2026-10-19",
+          "endDate": "2026-10-25",
+          "receiptIndex": 0.038,
+          "salesIndex": 0.072,
+          "cashShare": 33.2,
+          "cashlessShare": 66.8
+        },
+        {
+          "week": 44,
+          "startDate": "2026-10-26",
+          "endDate": "2026-11-01",
+          "receiptIndex": 0.008,
+          "salesIndex": 0.058,
+          "cashShare": 28.5,
+          "cashlessShare": 71.5
+        },
+        {
+          "week": 45,
+          "startDate": "2026-11-02",
+          "endDate": "2026-11-08",
+          "receiptIndex": -0.011,
+          "salesIndex": 0.05,
+          "cashShare": 32,
+          "cashlessShare": 68
+        },
+        {
+          "week": 46,
+          "startDate": "2026-11-09",
+          "endDate": "2026-11-15",
+          "receiptIndex": -0.018,
+          "salesIndex": 0.047,
+          "cashShare": 35.7,
+          "cashlessShare": 64.3
+        },
+        {
+          "week": 47,
+          "startDate": "2026-11-16",
+          "endDate": "2026-11-22",
+          "receiptIndex": -0.011,
+          "salesIndex": 0.052,
+          "cashShare": 31.3,
+          "cashlessShare": 68.7
+        },
+        {
+          "week": 48,
+          "startDate": "2026-11-23",
+          "endDate": "2026-11-29",
+          "receiptIndex": 0.005,
+          "salesIndex": 0.06,
+          "cashShare": 27.5,
+          "cashlessShare": 72.5
+        },
+        {
+          "week": 49,
+          "startDate": "2026-11-30",
+          "endDate": "2026-12-06",
+          "receiptIndex": 0.023,
+          "salesIndex": 0.067,
+          "cashShare": 32.1,
+          "cashlessShare": 67.9
+        },
+        {
+          "week": 50,
+          "startDate": "2026-12-07",
+          "endDate": "2026-12-13",
+          "receiptIndex": 0.037,
+          "salesIndex": 0.069,
+          "cashShare": 35.9,
+          "cashlessShare": 64.1
+        },
+        {
+          "week": 51,
+          "startDate": "2026-12-14",
+          "endDate": "2026-12-20",
+          "receiptIndex": 0.041,
+          "salesIndex": 0.063,
+          "cashShare": 31.7,
+          "cashlessShare": 68.3
+        },
+        {
+          "week": 52,
+          "startDate": "2026-12-21",
+          "endDate": "2026-12-27",
+          "receiptIndex": 0.033,
+          "salesIndex": 0.05,
+          "cashShare": 29,
+          "cashlessShare": 71
+        },
+        {
+          "week": 53,
+          "startDate": "2026-12-28",
+          "endDate": "2027-01-03",
+          "receiptIndex": 0.015,
+          "salesIndex": 0.03,
+          "cashShare": 34.5,
+          "cashlessShare": 65.5
+        }
+      ]
+    }
+  ]
+}
