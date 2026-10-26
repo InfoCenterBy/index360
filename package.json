@@ -1,0 +1,39 @@
+{
+  "name": "index360",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Индекс 360 — еженедельная потребительская активность",
+  "scripts": {
+    "dev": "gulp watch",
+    "build": "gulp build",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "browserslist": [
+    "last 3 Chrome versions",
+    "last 3 Firefox versions",
+    "last 3 Safari versions",
+    "last 3 iOS versions",
+    "last 3 Edge versions",
+    "last 3 Opera versions"
+  ],
+  "dependencies": {
+    "chart.js": "4.5.1",
+    "jspdf": "4.2.1"
+  },
+  "devDependencies": {
+    "@fontsource-variable/exo-2": "^5.2.0",
+    "@fontsource-variable/roboto": "^5.2.0",
+    "@tailwindcss/cli": "4.2.1",
+    "browser-sync": "^3.0.4",
+    "daisyui": "5.5.19",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.3.0",
+    "lucide-static": "^0.468.0",
+    "prettier": "3.8.1",
+    "tailwindcss": "4.2.1"
+  }
+}

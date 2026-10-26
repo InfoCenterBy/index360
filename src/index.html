@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ru" data-theme="index360">
+  @@include('components/head.html', {"title": "Индекс 360° — потребительская активность"})
+
+  <body>
+    <a href="#retail" class="skip-link">Перейти к графикам</a>
+    <header class="site-header page-container">@@include('components/brand.html')</header>
+    <main class="page-container">
+      <section class="intro" aria-labelledby="page-title">
+        <div class="intro-copy">
+          <span class="project-label">Специальный проект</span>
+          <h1 id="page-title">Индекс 360°</h1>
+          <p>
+            Еженедельная информация о потребительской активности на базе агрегированных и
+            обезличенных данных, поступающих от кассового оборудования
+          </p>
+        </div>
+        <img
+          class="intro-image"
+          src="img/hero.png"
+          alt="Более 200 тысяч касс, 15 миллионов чеков в сутки и 100 тысяч субъектов"
+          width="1134"
+          height="587"
+          fetchpriority="high"
+        />
+      </section>
+      <p class="data-status" id="data-status" role="status">Загрузка данных…</p>
+      <noscript>
+        <p class="alert alert-info">
+          Для интерактивных графиков и скачивания PDF включите JavaScript.
+        </p>
+      </noscript>
+
+      <section id="retail" class="chart-section" data-chart="retail" aria-labelledby="retail-title">
+        <div class="section-heading">
+          <h2 id="retail-title">Сводный индекс активности розницы (товары, работы, услуги)</h2>
+          @@include('components/chart-actions.html')
+        </div>
+        <div class="chart-card">
+          <div class="chart-notice" id="retail-description">
+            <svg class="icon" aria-hidden="true" focusable="false">
+              <use href="img/icons.svg#info"></use>
+            </svg>
+            <p>
+              Отображает изменение активности розницы в сравнении с аналогичным периодом прошлого
+              года. Положительные значения свидетельствуют о том, что в текущем периоде общая
+              выручка в рознице (количество чеков) выше, чем за аналогичный период предыдущего года.
+              В качестве анализируемого периода выбрана календарная неделя года.
+            </p>
+          </div>
+          <div
+            class="tabs tabs-box metric-tabs"
+            role="tablist"
+            aria-label="Показатель индекса розницы"
+          >
+            <button
+              class="tab tab-active"
+              type="button"
+              id="metric-receipts"
+              role="tab"
+              aria-selected="true"
+              aria-controls="retail-panel"
+              data-metric="receiptIndex"
+            >
+              Индекс розничного бизнеса (кол-во чеков)
+            </button>
+            <button
+              class="tab"
+              type="button"
+              id="metric-sales"
+              role="tab"
+              aria-selected="false"
+              tabindex="-1"
+              aria-controls="retail-panel"
+              data-metric="salesIndex"
+            >
+              Индекс розничного бизнеса (по сумме продаж)
+            </button>
+          </div>
+          <fieldset class="year-selector" id="retail-years">
+            <legend class="sr-only">Годы для сравнения</legend>
+          </fieldset>
+          <div role="tabpanel" id="retail-panel" aria-labelledby="metric-receipts">
+            <div class="chart-scroll">
+              <div class="chart-wrap">
+                <canvas
+                  id="retail-chart"
+                  role="img"
+                  tabindex="0"
+                  aria-label="Индекс розничного бизнеса по неделям. Стрелки влево и вправо — просмотр недель."
+                  aria-describedby="retail-description"
+                  >Числовые значения доступны в CSV через меню скачивания.</canvas
+                >
+              </div>
+            </div>
+            <p class="empty-state" hidden>Выберите хотя бы один год для отображения графика.</p>
+            <div class="chart-legend" id="retail-legend" aria-label="Годы на графике"></div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="payments"
+        class="chart-section"
+        data-chart="payments"
+        aria-labelledby="payments-title"
+      >
+        <div class="section-heading">
+          <h2 id="payments-title">Соотношение наличной/безналичной форм оплаты в рознице</h2>
+          @@include('components/chart-actions.html')
+        </div>
+        <div class="chart-card">
+          <div class="chart-notice" id="payments-description">
+            <svg class="icon" aria-hidden="true" focusable="false">
+              <use href="img/icons.svg#info"></use>
+            </svg>
+            <p>
+              Формируется еженедельно и учитывает все способы безналичной оплаты, которые отражаются
+              в платежных документах (контактные, бесконтактные, QR-коды и прочие).
+            </p>
+          </div>
+          <fieldset class="year-selector" id="payment-years">
+            <legend class="sr-only">Год для соотношения форм оплаты</legend>
+          </fieldset>
+          <div class="chart-scroll">
+            <div class="chart-wrap">
+              <canvas
+                id="payment-chart"
+                role="img"
+                tabindex="0"
+                aria-label="Доли наличной и безналичной оплаты по неделям. Стрелки влево и вправо — просмотр недель."
+                aria-describedby="payments-description"
+                >Числовые значения доступны в CSV через меню скачивания.</canvas
+              >
+            </div>
+          </div>
+          <div class="chart-legend" id="payment-legend" aria-label="Формы оплаты"></div>
+        </div>
+      </section>
+    </main>
+    @@include('components/footer.html')
+    <script src="js/vendor/chart.umd.min.js" defer></script>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>

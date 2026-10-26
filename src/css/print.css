@@ -1,0 +1,85 @@
+@page {
+  size: A4 landscape;
+  margin: 12mm;
+}
+@media print {
+  html,
+  body {
+    min-width: 0;
+    background: #fff;
+  }
+  body {
+    font-size: 10pt;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+  .page-container {
+    width: 100%;
+    max-width: none;
+  }
+  .site-header,
+  .intro,
+  .site-footer,
+  .cookie-banner,
+  .chart-actions,
+  .skip-link,
+  dialog,
+  .year-selector,
+  .metric-tabs,
+  .chart-tooltip {
+    display: none !important;
+  }
+  .data-status {
+    margin: 0 0 8px;
+  }
+  .chart-section {
+    break-inside: avoid;
+  }
+  .chart-section + .chart-section {
+    margin-top: 24px;
+    break-before: page;
+  }
+  .section-heading {
+    margin-bottom: 16px;
+  }
+  .section-heading h2 {
+    font-size: 20pt;
+  }
+  .chart-card {
+    padding: 16px;
+  }
+  .chart-notice {
+    font-size: 10pt;
+  }
+  .chart-wrap {
+    width: 100%;
+    min-width: 0 !important;
+    height: 300px;
+  }
+  .chart-scroll {
+    overflow: visible;
+  }
+  .print-context {
+    display: block;
+    margin-bottom: 12px;
+  }
+  .chart-legend {
+    display: flex;
+    margin-top: 16px;
+  }
+  .legend-item {
+    font-size: 10pt;
+  }
+  .legend-swatch {
+    width: 32px;
+    height: 16px;
+  }
+  body[data-print-chart='retail'] #payments,
+  body[data-print-chart='payments'] #retail {
+    display: none;
+  }
+  body[data-print-chart='payments'] #payments {
+    margin-top: 0;
+    break-before: auto;
+  }
+}

@@ -1,0 +1,28 @@
+<div class="chart-actions" aria-label="Экспорт и печать">
+  <details class="dropdown dropdown-end export-dropdown">
+    <summary
+      class="btn btn-outline btn-primary btn-square action-button"
+      aria-label="Скачать график"
+      title="Скачать график"
+    >
+      <svg class="icon" aria-hidden="true" focusable="false">
+        <use href="img/icons.svg#file-down"></use>
+      </svg>
+    </summary>
+    <ul class="dropdown-content menu export-menu">
+      <li><button type="button" data-export="pdf">PDF</button></li>
+      <li><button type="button" data-export="csv">CSV (для Excel)</button></li>
+    </ul>
+  </details>
+  <button
+    class="btn btn-outline btn-primary btn-square action-button"
+    type="button"
+    data-print
+    title="Распечатать график"
+    aria-label="Распечатать график"
+  >
+    <svg class="icon" aria-hidden="true" focusable="false">
+      <use href="img/icons.svg#printer"></use>
+    </svg>
+  </button>
+</div>
