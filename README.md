@@ -2,6 +2,7 @@
 npm ci
 npm run dev
 npm run build
+npm run deploy
 npm run format
 ```
 
