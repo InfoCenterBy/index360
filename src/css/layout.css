@@ -186,19 +186,22 @@ button,
   padding-top: 80px;
 }
 .error-content > img {
-  width: min(660px, 100%);
+  width: min(440px, 100%);
   height: auto;
+  aspect-ratio: 440 / 355;
+  object-fit: contain;
   margin: 0 auto 36px;
 }
 .error-content > p {
-  font-size: 24px;
+  font-size: 16px;
   margin-top: 16px;
 }
 .return-home {
   margin-top: 36px;
-  padding: 16px 36px;
+  border-radius: var(--radius-field);
+  padding: 12px 24px;
   height: auto;
-  font: 400 28px/1.3 var(--font-heading);
+  font: 400 16px/1.3 var(--font-heading);
 }
 .error-page .site-footer {
   padding-top: 100px;
@@ -281,13 +284,6 @@ button,
   }
   .error-content {
     padding-top: 64px;
-  }
-  .error-content > p {
-    font-size: 16px;
-  }
-  .return-home {
-    font-size: 20px;
-    padding: 14px 24px;
   }
   .error-page .site-footer {
     padding-top: 80px;
