@@ -1,5 +1,5 @@
 import { METRICS, YEAR_COLORS, PAYMENT_SERIES } from './config.js';
-import { calendarWeeks, weekLabel, MONTHS } from './calendar.js';
+import { calendarWeeks, weekLabel, weekDateRange, MONTHS } from './calendar.js';
 import { indexFormat, shareFormat } from './format.js';
 import { renderTooltip } from './chart-interactions.js';
 
@@ -118,11 +118,9 @@ function updateRetailChart(chart, data, state, mobile) {
     },
   };
   chart.options.plugins.tooltip.callbacks = {
-    title: (items) => (items.length ? weekLabel(items[0].raw.point) : ''),
+    title: (items) => (items.length ? `Неделя ${items[0].raw.point.week}` : ''),
     label: (item) =>
-      `${item.dataset.label} · ${METRICS[state.metric]}: ${indexFormat.format(item.parsed.y)}`,
-    // The same ISO week can have different calendar dates in each year.
-    afterLabel: (item) => weekLabel(item.raw.point),
+      `${item.dataset.label} (${weekDateRange(item.raw.point)}) · ${METRICS[state.metric]}: ${indexFormat.format(item.parsed.y)}`,
   };
 }
 
@@ -135,7 +133,8 @@ function updatePaymentChart(chart, data, state, mobile) {
     backgroundColor: fill,
     borderColor: color,
     borderWidth: 2,
-    borderRadius: 6,
+    // Explicit corners also round the lower segment of a stacked bar.
+    borderRadius: { topLeft: 8, topRight: 8, bottomLeft: 8, bottomRight: 8 },
     borderSkipped: false,
     barPercentage: 0.85,
     categoryPercentage: 1,

@@ -40,7 +40,11 @@ export function calendarWeeks(year) {
   return weeks;
 }
 
-export function weekLabel(point) {
+export function weekDateRange(point) {
   const formatDate = (value) => `${value.slice(8, 10)}.${value.slice(5, 7)}.${value.slice(2, 4)}`;
-  return `Неделя ${point.week}: ${formatDate(point.startDate)}–${formatDate(point.endDate)}`;
+  return `${formatDate(point.startDate)}–${formatDate(point.endDate)}`;
+}
+
+export function weekLabel(point) {
+  return `Неделя ${point.week}: ${weekDateRange(point)}`;
 }
