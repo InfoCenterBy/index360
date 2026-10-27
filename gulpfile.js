@@ -46,17 +46,6 @@ function dataFiles() {
 function staticFiles() {
   return src('src/files/**/*', { allowEmpty: true }).pipe(dest('dist/files'));
 }
-async function licenses() {
-  await fs.mkdir('dist/licenses', { recursive: true });
-  for (const [from, to] of [
-    ['node_modules/@fontsource-variable/exo-2/LICENSE', 'exo-2.txt'],
-    ['node_modules/@fontsource-variable/roboto/LICENSE', 'roboto.txt'],
-    ['node_modules/lucide-static/LICENSE', 'lucide.txt'],
-    ['node_modules/chart.js/LICENSE.md', 'chartjs.txt'],
-    ['node_modules/jspdf/LICENSE', 'jspdf.txt'],
-  ])
-    await fs.copyFile(from, path.join('dist/licenses', to));
-}
 function styles() {
   return new Promise((resolve, reject) => {
     const child = spawn(process.execPath, cssArgs, { cwd: __dirname, stdio: 'inherit' });
@@ -66,7 +55,7 @@ function styles() {
 }
 const build = series(
   clean,
-  parallel(html, scripts, assets, icons, vendor, fonts, styles, dataFiles, staticFiles, licenses),
+  parallel(html, scripts, assets, icons, vendor, fonts, styles, dataFiles, staticFiles),
 );
 function serve(done) {
   browser.init({ server: { baseDir: output }, port: 3000, open: false, notify: false });
