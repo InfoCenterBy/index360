@@ -12,13 +12,18 @@ function createYearControls(years, state, onChange) {
     const isRetail = kind === 'retail';
 
     for (const year of years) {
-      const label = createElement('label');
+      const label = createElement(
+        'label',
+        undefined,
+        'inline-flex items-center gap-2 text-sm leading-6 max-[360px]:gap-1.5 md:text-base',
+      );
       const input = createElement('input');
       input.type = isRetail ? 'checkbox' : 'radio';
       input.name = `${kind}-years`;
       input.value = year;
       input.checked = isRetail ? state.retailYears.has(year) : state.paymentYear === year;
-      input.className = isRetail ? 'checkbox checkbox-primary' : 'radio radio-primary';
+      const controlClass = isRetail ? 'checkbox checkbox-primary' : 'radio radio-primary';
+      input.className = `${controlClass} size-6 border-base-300 shadow-none checked:border-primary`;
       input.addEventListener('change', () => {
         if (isRetail) toggleYear(state, year);
         else state.paymentYear = year;
@@ -103,7 +108,9 @@ export function initControls(data, state, onChange) {
   bindMetricTabs(state, onChange);
 
   for (const section of document.querySelectorAll('[data-chart]')) {
-    section.querySelector('.chart-card').prepend(createElement('p', undefined, 'print-context'));
+    section
+      .querySelector('.chart-card')
+      .prepend(createElement('p', undefined, 'print-context hidden'));
   }
 }
 

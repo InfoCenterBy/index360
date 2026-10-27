@@ -30,14 +30,16 @@
 
   <body>
     <a href="#retail" class="skip-link">Перейти к графикам</a>
-    <header class="site-header page-container"><a class="brand" href="./" aria-label="Информационно-издательский центр — на главную">
-  <img src="img/logo.png" alt="" width="40" height="45" />
+    <header class="site-header page-container pt-5 md:pt-6">
+      <a class="brand" href="./" aria-label="Информационно-издательский центр — на главную">
+  <img class="h-auto w-8 shrink-0 md:w-10" src="img/logo.png" alt="" width="40" height="45" />
   <span
     >Республиканское унитарное предприятие<br />«Информационно-издательский центр<br />по налогам и
     сборам»</span
   >
 </a>
-</header>
+
+    </header>
     <main class="page-container">
       <section class="intro" aria-labelledby="page-title">
         <div class="intro-copy">
@@ -57,20 +59,31 @@
           fetchpriority="high"
         />
       </section>
-      <p class="data-status" id="data-status" role="status">Загрузка данных…</p>
+      <p
+        class="data-status mb-5 text-sm leading-[1.3] text-base-500 md:mb-7"
+        id="data-status"
+        role="status"
+      >
+        Загрузка данных…
+      </p>
       <noscript>
         <p class="alert alert-info">
           Для интерактивных графиков и скачивания PDF включите JavaScript.
         </p>
       </noscript>
 
-      <section id="retail" class="chart-section" data-chart="retail" aria-labelledby="retail-title">
+      <section
+        id="retail"
+        class="chart-section scroll-mt-8"
+        data-chart="retail"
+        aria-labelledby="retail-title"
+      >
         <div class="section-heading">
           <h2 id="retail-title">Сводный индекс активности розницы (товары, работы, услуги)</h2>
-          <div class="chart-actions" aria-label="Экспорт и печать">
+          <div class="chart-actions flex shrink-0 gap-2" aria-label="Экспорт и печать">
   <details class="dropdown dropdown-end export-dropdown">
     <summary
-      class="btn btn-outline btn-primary btn-square action-button"
+      class="btn btn-outline btn-primary btn-square action-button aria-busy:pointer-events-none aria-busy:opacity-50"
       aria-label="Скачать график"
       title="Скачать график"
     >
@@ -84,7 +97,7 @@
     </ul>
   </details>
   <button
-    class="btn btn-outline btn-primary btn-square action-button"
+    class="btn btn-outline btn-primary btn-square action-button aria-busy:pointer-events-none aria-busy:opacity-50"
     type="button"
     data-print
     title="Распечатать график"
@@ -142,8 +155,10 @@
             <legend class="sr-only">Годы для сравнения</legend>
           </fieldset>
           <div role="tabpanel" id="retail-panel" aria-labelledby="metric-receipts">
-            <div class="chart-scroll">
-              <div class="chart-wrap">
+            <div class="chart-scroll overflow-x-auto overscroll-x-contain">
+              <div
+                class="chart-wrap relative h-[290px] w-full min-w-[1060px] md:h-[300px] md:min-w-0"
+              >
                 <canvas
                   id="retail-chart"
                   role="img"
@@ -154,7 +169,9 @@
                 >
               </div>
             </div>
-            <p class="empty-state" hidden>Выберите хотя бы один год для отображения графика.</p>
+            <p class="empty-state px-6 py-20 text-center text-base-500" hidden>
+              Выберите хотя бы один год для отображения графика.
+            </p>
             <div class="chart-legend" id="retail-legend" aria-label="Годы на графике"></div>
           </div>
         </div>
@@ -162,16 +179,16 @@
 
       <section
         id="payments"
-        class="chart-section"
+        class="chart-section mt-[100px] scroll-mt-8 md:mt-[150px]"
         data-chart="payments"
         aria-labelledby="payments-title"
       >
         <div class="section-heading">
           <h2 id="payments-title">Соотношение наличной/безналичной форм оплаты в рознице</h2>
-          <div class="chart-actions" aria-label="Экспорт и печать">
+          <div class="chart-actions flex shrink-0 gap-2" aria-label="Экспорт и печать">
   <details class="dropdown dropdown-end export-dropdown">
     <summary
-      class="btn btn-outline btn-primary btn-square action-button"
+      class="btn btn-outline btn-primary btn-square action-button aria-busy:pointer-events-none aria-busy:opacity-50"
       aria-label="Скачать график"
       title="Скачать график"
     >
@@ -185,7 +202,7 @@
     </ul>
   </details>
   <button
-    class="btn btn-outline btn-primary btn-square action-button"
+    class="btn btn-outline btn-primary btn-square action-button aria-busy:pointer-events-none aria-busy:opacity-50"
     type="button"
     data-print
     title="Распечатать график"
@@ -211,8 +228,10 @@
           <fieldset class="year-selector" id="payment-years">
             <legend class="sr-only">Год для соотношения форм оплаты</legend>
           </fieldset>
-          <div class="chart-scroll">
-            <div class="chart-wrap">
+          <div class="chart-scroll overflow-x-auto overscroll-x-contain">
+            <div
+              class="chart-wrap relative h-[290px] w-full min-w-[1060px] md:h-[300px] md:min-w-0"
+            >
               <canvas
                 id="payment-chart"
                 role="img"
@@ -229,17 +248,17 @@
     </main>
     <footer class="site-footer page-container">
   <a class="brand" href="./" aria-label="Информационно-издательский центр — на главную">
-  <img src="img/logo.png" alt="" width="40" height="45" />
+  <img class="h-auto w-8 shrink-0 md:w-10" src="img/logo.png" alt="" width="40" height="45" />
   <span
     >Республиканское унитарное предприятие<br />«Информационно-издательский центр<br />по налогам и
     сборам»</span
   >
 </a>
 
-  <div class="footer-links">
-    <button type="button" class="footer-link" data-dialog="cookie-policy">
+  <div class="grid justify-items-start gap-2.5 md:gap-2">
+    <a class="footer-link" href="files/cookie-policy.pdf" download>
       Политика в отношении обработки файлов cookie
-    </button>
+    </a>
     <button type="button" class="footer-link" data-dialog="cookie-settings">
       Настройка согласия на файлы cookie
     </button>
@@ -251,19 +270,25 @@
   aria-label="Использование cookie"
   hidden
 >
-  <img src="img/cookie.png" width="60" height="54" alt="" class="cookie-image" />
-  <div class="cookie-banner-copy">
+  <img
+    src="img/cookie.png"
+    width="60"
+    height="54"
+    alt=""
+    class="h-[54px] w-15 shrink-0 object-contain"
+  />
+  <div class="flex-1 text-sm leading-[1.3] md:text-lg">
     <p>
       Мы используем файлы cookie для улучшения работы сайта. Подробную информацию вы найдёте в
-      <button type="button" class="cookie-link" data-dialog="cookie-policy">
+      <a class="cookie-link" href="files/cookie-policy.pdf" download>
         Политике в отношении обработки куки (cookies)
-      </button>
+      </a>
     </p>
-    <button type="button" class="cookie-link" data-dialog="cookie-settings">
+    <button type="button" class="cookie-link mt-2.5" data-dialog="cookie-settings">
       Настроить cookies
     </button>
   </div>
-  <div class="cookie-actions">
+  <div class="cookie-actions flex shrink-0 justify-end">
     <button type="button" class="btn btn-outline btn-primary" data-cookie-action="reject">
       Отклонить
     </button>
@@ -288,11 +313,14 @@
       Мы используем файлы cookies, которые повышают удобство работы с нашим сайтом, и помогают нам
       анализировать производительность и использование сайта.
     </p>
-    <div class="cookie-categories">
-      <details class="collapse collapse-plus cookie-category">
+    <div class="mt-4 grid gap-4">
+      <details class="collapse collapse-plus cookie-category rounded-2xl bg-base-200">
         <summary class="collapse-title">
           <span>Необходимые</span>
-          <span class="cookie-always-active">Всегда активно</span>
+          <span
+            class="text-right text-sm text-primary min-[560px]:text-base min-[560px]:whitespace-nowrap"
+            >Всегда активно</span
+          >
         </summary>
         <div class="collapse-content">
           <p>
@@ -303,8 +331,8 @@
           </p>
         </div>
       </details>
-      <div class="cookie-category-with-toggle">
-        <details class="collapse collapse-plus cookie-category">
+      <div class="cookie-category-with-toggle relative">
+        <details class="collapse collapse-plus cookie-category rounded-2xl bg-base-200">
           <summary class="collapse-title"><span>Функциональные</span></summary>
           <div class="collapse-content">
             <p>
@@ -323,8 +351,8 @@
           aria-label="Функциональные cookie"
         />
       </div>
-      <div class="cookie-category-with-toggle">
-        <details class="collapse collapse-plus cookie-category">
+      <div class="cookie-category-with-toggle relative">
+        <details class="collapse collapse-plus cookie-category rounded-2xl bg-base-200">
           <summary class="collapse-title"><span>Статистические</span></summary>
           <div class="collapse-content">
             <p>
@@ -341,51 +369,11 @@
         />
       </div>
     </div>
-    <div class="modal-action cookie-actions">
+    <div class="modal-action cookie-actions flex shrink-0 justify-end">
       <button type="button" class="btn btn-outline btn-primary" data-cookie-action="reject">
         Отклонить
       </button>
       <button type="button" class="btn btn-primary" data-cookie-action="accept">Принять все</button>
-    </div>
-  </div>
-  <form method="dialog" class="modal-backdrop"><button aria-label="Закрыть">Закрыть</button></form>
-</dialog>
-
-<dialog id="cookie-policy" class="modal" aria-labelledby="cookie-policy-title">
-  <div class="modal-box cookie-policy">
-    <button
-      class="btn btn-sm btn-circle btn-ghost modal-close"
-      type="button"
-      data-close-dialog
-      aria-label="Закрыть"
-    >
-      <svg class="icon" aria-hidden="true" focusable="false">
-        <use href="img/icons.svg#x"></use>
-      </svg>
-    </button>
-    <h2 class="dialog-title" id="cookie-policy-title">
-      Политика в отношении обработки куки (cookies)
-    </h2>
-    <p>
-      Cookie — небольшие файлы, которые сайт сохраняет в браузере. Необходимый cookie
-      <code>index360_consent</code> хранит ваш выбор категорий в течение одного года. Он
-      устанавливается после принятия или отклонения необязательных cookie.
-    </p>
-    <p>
-      При согласии на функциональные cookie сайт запоминает выбранные показатели и годы графиков в
-      локальном хранилище браузера. При отключении этой категории сохранённые фильтры удаляются.
-    </p>
-    <p>
-      Статистические cookie предназначены для анализа посещений. Сейчас сервисы аналитики и
-      рекламные cookie на сайте не подключены. Выбор этой категории сохраняется вместе с вашим
-      согласием.
-    </p>
-    <p>
-      Изменить выбор можно в любой момент через «Настройка согласия на файлы cookie» в подвале
-      сайта. Удалить cookie и локальные данные можно также в настройках браузера.
-    </p>
-    <div class="modal-action">
-      <button class="btn btn-primary" type="button" data-close-dialog>Понятно</button>
     </div>
   </div>
   <form method="dialog" class="modal-backdrop"><button aria-label="Закрыть">Закрыть</button></form>
