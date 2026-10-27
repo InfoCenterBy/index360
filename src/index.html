@@ -94,18 +94,27 @@
             <legend class="sr-only">Годы для сравнения</legend>
           </fieldset>
           <div role="tabpanel" id="retail-panel" aria-labelledby="metric-receipts">
-            <div class="chart-scroll overflow-x-auto overscroll-x-contain">
-              <div
-                class="chart-wrap relative h-[290px] w-full min-w-[1060px] md:h-[300px] md:min-w-0"
-              >
-                <canvas
-                  id="retail-chart"
-                  role="img"
-                  tabindex="0"
-                  aria-label="Индекс розничного бизнеса по неделям. Стрелки влево и вправо — просмотр недель."
-                  aria-describedby="retail-description"
-                  >Числовые значения доступны в CSV через меню скачивания.</canvas
+            <div class="relative" data-chart-region aria-busy="true">
+              <div class="chart-scroll overflow-x-auto overscroll-x-contain">
+                <div
+                  class="chart-wrap relative h-[290px] w-full min-w-[1060px] md:h-[300px] md:min-w-0"
                 >
+                  <canvas
+                    id="retail-chart"
+                    role="img"
+                    tabindex="0"
+                    aria-label="Индекс розничного бизнеса по неделям. Стрелки влево и вправо — просмотр недель."
+                    aria-describedby="retail-description"
+                    >Числовые значения доступны в CSV через меню скачивания.</canvas
+                  >
+                </div>
+              </div>
+              <div
+                class="absolute inset-0 grid place-items-center bg-base-100 print:hidden"
+                data-chart-loader
+                aria-hidden="true"
+              >
+                <span class="loading loading-spinner loading-lg text-primary"></span>
               </div>
             </div>
             <p class="empty-state px-6 py-20 text-center text-base-500" hidden>
@@ -139,18 +148,27 @@
           <fieldset class="year-selector" id="payment-years">
             <legend class="sr-only">Год для соотношения форм оплаты</legend>
           </fieldset>
-          <div class="chart-scroll overflow-x-auto overscroll-x-contain">
-            <div
-              class="chart-wrap relative h-[290px] w-full min-w-[1060px] md:h-[300px] md:min-w-0"
-            >
-              <canvas
-                id="payment-chart"
-                role="img"
-                tabindex="0"
-                aria-label="Доли наличной и безналичной оплаты по неделям. Стрелки влево и вправо — просмотр недель."
-                aria-describedby="payments-description"
-                >Числовые значения доступны в CSV через меню скачивания.</canvas
+          <div class="relative" data-chart-region aria-busy="true">
+            <div class="chart-scroll overflow-x-auto overscroll-x-contain">
+              <div
+                class="chart-wrap relative h-[290px] w-full min-w-[1060px] md:h-[300px] md:min-w-0"
               >
+                <canvas
+                  id="payment-chart"
+                  role="img"
+                  tabindex="0"
+                  aria-label="Доли наличной и безналичной оплаты по неделям. Стрелки влево и вправо — просмотр недель."
+                  aria-describedby="payments-description"
+                  >Числовые значения доступны в CSV через меню скачивания.</canvas
+                >
+              </div>
+            </div>
+            <div
+              class="absolute inset-0 grid place-items-center bg-base-100 print:hidden"
+              data-chart-loader
+              aria-hidden="true"
+            >
+              <span class="loading loading-spinner loading-lg text-primary"></span>
             </div>
           </div>
           <div class="chart-legend" id="payment-legend" aria-label="Формы оплаты"></div>

@@ -72,6 +72,13 @@ async function init() {
     document.querySelectorAll('.chart-scroll').forEach((chart) => {
       chart.hidden = true;
     });
+  } finally {
+    document.querySelectorAll('[data-chart-loader]').forEach((loader) => {
+      loader.hidden = true;
+    });
+    document.querySelectorAll('[data-chart-region]').forEach((region) => {
+      region.setAttribute('aria-busy', 'false');
+    });
   }
 }
 
