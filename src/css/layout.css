@@ -47,9 +47,6 @@ canvas:focus-visible {
   width: min(100% - 48px, 1536px);
   margin-inline: auto;
 }
-.site-header {
-  padding-top: 24px;
-}
 .brand {
   display: inline-flex;
   align-items: center;
@@ -58,11 +55,6 @@ canvas:focus-visible {
   text-decoration: none;
   font-size: 16px;
   line-height: 1.2;
-}
-.brand img {
-  flex: 0 0 auto;
-  width: 40px;
-  height: auto;
 }
 .intro {
   display: grid;
@@ -79,7 +71,7 @@ canvas:focus-visible {
   padding: 12px 20px;
   background: var(--color-primary-100);
   color: var(--color-primary);
-  font: 600 28px/1.1 var(--font-heading);
+  font: 600 24px/1.1 var(--font-heading);
   text-transform: uppercase;
 }
 h1 {
@@ -96,11 +88,6 @@ h1 {
   width: 100%;
   height: auto;
 }
-.data-status {
-  margin: 0 0 28px;
-  font-size: 14px;
-  color: var(--color-base-500);
-}
 .data-status.is-error {
   color: #b91c1c;
 }
@@ -111,11 +98,6 @@ h1 {
   gap: 40px;
   padding-top: 190px;
   padding-bottom: 32px;
-}
-.footer-links {
-  display: grid;
-  gap: 8px;
-  justify-items: start;
 }
 .footer-link {
   color: var(--color-base-content);
@@ -173,25 +155,12 @@ h1 {
 .skip-link:focus {
   top: 16px;
 }
-.error-page {
-  display: flex;
-  flex-direction: column;
-}
-.error-content {
-  flex: 1;
-  text-align: center;
-  padding-top: 80px;
-}
 .error-content > img {
   width: min(440px, 100%);
   height: auto;
   aspect-ratio: 440 / 355;
   object-fit: contain;
   margin: 0 auto 36px;
-}
-.error-content > p {
-  font-size: 16px;
-  margin-top: 16px;
 }
 .return-home {
   margin-top: 36px;
@@ -215,9 +184,6 @@ h1 {
   h1 {
     font-size: 68px;
   }
-  .project-label {
-    font-size: 24px;
-  }
   .intro-copy > p {
     font-size: 21px;
   }
@@ -225,21 +191,7 @@ h1 {
     padding-top: 120px;
   }
 }
-@media (max-width: 767px) {
-  .page-container {
-    width: calc(100% - 32px);
-  }
-  .site-header {
-    padding-top: 20px;
-  }
-  .brand {
-    gap: 12px;
-    font-size: 12px;
-    line-height: 1.2;
-  }
-  .brand img {
-    width: 32px;
-  }
+@media (max-width: 768px) {
   .intro {
     grid-template-columns: 1fr;
     gap: 28px;
@@ -262,10 +214,17 @@ h1 {
   }
   .intro-image {
     max-width: 520px;
-    margin: 0 auto;
+    margin-inline: auto;
   }
-  .data-status {
-    margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .page-container {
+    width: calc(100% - 32px);
+  }
+  .brand {
+    gap: 12px;
+    font-size: 12px;
+    line-height: 1.2;
   }
   .site-footer {
     flex-direction: column;
@@ -273,14 +232,8 @@ h1 {
     gap: 32px;
     padding: 100px 0 32px;
   }
-  .footer-links {
-    gap: 10px;
-  }
   .footer-link {
     font-size: 14px;
-  }
-  .error-content {
-    padding-top: 64px;
   }
   .error-page .site-footer {
     padding-top: 80px;

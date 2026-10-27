@@ -174,7 +174,7 @@ function updateEmptyState(kind, chart) {
   let message = section.querySelector('.empty-state');
   if (!message) {
     message = document.createElement('p');
-    message.className = 'empty-state';
+    message.className = 'empty-state px-6 py-20 text-center text-base-500';
     section.querySelector('.chart-scroll').after(message);
   }
   message.hidden = hasValues;
@@ -189,8 +189,6 @@ export function updateCharts(charts, data, state, mobile) {
   updatePaymentChart(charts.payments, data, state, mobile);
 
   for (const [kind, chart] of Object.entries(charts)) {
-    // Keep weekly labels readable and let phones scroll horizontally.
-    chart.canvas.parentElement.style.minWidth = mobile ? '1060px' : '';
     updateEmptyState(kind, chart);
     chart.setActiveElements([]);
     chart.tooltip.setActiveElements([], { x: 0, y: 0 });

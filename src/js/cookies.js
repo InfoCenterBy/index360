@@ -49,12 +49,10 @@ export function initCookies(onChange) {
   const statistical = document.getElementById('statistical-cookies');
   banner.hidden = consent?.confirmed === true;
 
-  function openDialog(id) {
-    if (id === 'cookie-settings') {
-      functional.checked = consent?.functional === true;
-      statistical.checked = consent?.statistical === true;
-    }
-    document.getElementById(id).showModal();
+  function openSettings() {
+    functional.checked = consent?.functional === true;
+    statistical.checked = consent?.statistical === true;
+    settings.showModal();
   }
 
   function applyConsent(functionalAllowed, statisticalAllowed, confirmChoice = true) {
@@ -75,8 +73,8 @@ export function initCookies(onChange) {
     );
   }
 
-  document.querySelectorAll('[data-dialog]').forEach((button) => {
-    button.addEventListener('click', () => openDialog(button.dataset.dialog));
+  document.querySelectorAll('[data-dialog="cookie-settings"]').forEach((button) => {
+    button.addEventListener('click', openSettings);
   });
   document.querySelectorAll('[data-close-dialog]').forEach((button) => {
     button.addEventListener('click', () => button.closest('dialog').close());

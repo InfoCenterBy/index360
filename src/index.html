@@ -4,7 +4,9 @@
 
   <body>
     <a href="#retail" class="skip-link">Перейти к графикам</a>
-    <header class="site-header page-container">@@include('components/brand.html')</header>
+    <header class="site-header page-container pt-5 md:pt-6">
+      @@include('components/brand.html')
+    </header>
     <main class="page-container">
       <section class="intro" aria-labelledby="page-title">
         <div class="intro-copy">
@@ -24,14 +26,25 @@
           fetchpriority="high"
         />
       </section>
-      <p class="data-status" id="data-status" role="status">Загрузка данных…</p>
+      <p
+        class="data-status mb-5 text-sm leading-[1.3] text-base-500 md:mb-7"
+        id="data-status"
+        role="status"
+      >
+        Загрузка данных…
+      </p>
       <noscript>
         <p class="alert alert-info">
           Для интерактивных графиков и скачивания PDF включите JavaScript.
         </p>
       </noscript>
 
-      <section id="retail" class="chart-section" data-chart="retail" aria-labelledby="retail-title">
+      <section
+        id="retail"
+        class="chart-section scroll-mt-8"
+        data-chart="retail"
+        aria-labelledby="retail-title"
+      >
         <div class="section-heading">
           <h2 id="retail-title">Сводный индекс активности розницы (товары, работы, услуги)</h2>
           @@include('components/chart-actions.html')
@@ -81,8 +94,10 @@
             <legend class="sr-only">Годы для сравнения</legend>
           </fieldset>
           <div role="tabpanel" id="retail-panel" aria-labelledby="metric-receipts">
-            <div class="chart-scroll">
-              <div class="chart-wrap">
+            <div class="chart-scroll overflow-x-auto overscroll-x-contain">
+              <div
+                class="chart-wrap relative h-[290px] w-full min-w-[1060px] md:h-[300px] md:min-w-0"
+              >
                 <canvas
                   id="retail-chart"
                   role="img"
@@ -93,7 +108,9 @@
                 >
               </div>
             </div>
-            <p class="empty-state" hidden>Выберите хотя бы один год для отображения графика.</p>
+            <p class="empty-state px-6 py-20 text-center text-base-500" hidden>
+              Выберите хотя бы один год для отображения графика.
+            </p>
             <div class="chart-legend" id="retail-legend" aria-label="Годы на графике"></div>
           </div>
         </div>
@@ -101,7 +118,7 @@
 
       <section
         id="payments"
-        class="chart-section"
+        class="chart-section mt-[100px] scroll-mt-8 md:mt-[150px]"
         data-chart="payments"
         aria-labelledby="payments-title"
       >
@@ -122,8 +139,10 @@
           <fieldset class="year-selector" id="payment-years">
             <legend class="sr-only">Год для соотношения форм оплаты</legend>
           </fieldset>
-          <div class="chart-scroll">
-            <div class="chart-wrap">
+          <div class="chart-scroll overflow-x-auto overscroll-x-contain">
+            <div
+              class="chart-wrap relative h-[290px] w-full min-w-[1060px] md:h-[300px] md:min-w-0"
+            >
               <canvas
                 id="payment-chart"
                 role="img"

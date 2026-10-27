@@ -43,6 +43,9 @@ function fonts() {
 function dataFiles() {
   return src('src/data/**/*', { allowEmpty: true }).pipe(dest('dist/data'));
 }
+function staticFiles() {
+  return src('src/files/**/*', { allowEmpty: true }).pipe(dest('dist/files'));
+}
 async function licenses() {
   await fs.mkdir('dist/licenses', { recursive: true });
   for (const [from, to] of [
@@ -63,7 +66,7 @@ function styles() {
 }
 const build = series(
   clean,
-  parallel(html, scripts, assets, icons, vendor, fonts, styles, dataFiles, licenses),
+  parallel(html, scripts, assets, icons, vendor, fonts, styles, dataFiles, staticFiles, licenses),
 );
 function serve(done) {
   browser.init({ server: { baseDir: output }, port: 3000, open: false, notify: false });
@@ -72,6 +75,7 @@ function serve(done) {
   watch('src/js/**/*.js', scripts);
   watch('src/img/**/*', series(assets, reload));
   watch('src/data/**/*', series(dataFiles, reload));
+  watch('src/files/**/*', series(staticFiles, reload));
   watch('dist/css/*.css', reload);
   done();
 }
